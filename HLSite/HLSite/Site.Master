@@ -37,30 +37,45 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+       
+       <!-- <div class="nav" style="background:black; padding-top:75px; padding-left:0"> -->
+        <div style= "background-image:url(resources/nbapic.jpg);  background-size:1920px">
+        <div class="jumbotron" style=" margin-top:-51px; background-color:transparent; background-position:center; background-position-y:top; background-repeat:no-repeat; 
+                    background-size: 1500px 600px; height:600px; background-image:url(Resources/IMG_1029.JPG);  box-shadow:rgb(39, 43, 48);"  >
+                                                                                                                                          <!-- Facebook Pic for next 5 lines. -->
+            <div style="color:lawngreen; margin-left:1710px; text-align:center; margin-top:-40px; background-image:url(Resources/nbapic.jpg)    
+                    ;background-repeat:no-repeat; background-position:center;  background-size:50px 50px" >                                          
+                 <h1>  
+                f
+                 </h1>
+                <!-- <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Rickon_Stark">Who is this anyway? &raquo;</a> -->
+            </div>
 
-       <!-- <div class="nav" style="background:black; padding-top:75px; padding-left:0"> !-->
-            <div class="container"  style="background-color:pink; margin-left:40px">
-                <div class="navbar-header" style="background-color:green; padding-left:0">
+            <div class="container"  style="background-color:black; padding:0px 0px 0px 0px; flood-color:black; margin-left:330px; margin-top:-40px; font-style:oblique;  border-style:hidden; width:842px">          <!-- This is the navbar -->
+                <div class="navbar-header" style="background-color:black; padding-left:0">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Hume's Landscape Service</a>
+                    <a class="navbar-brand"  runat="server" style="background-color:black" href="~/">Hume's Landscape Service</a>  <!-- This is the "logo" area, redirects to home page. -->
                 </div>
-                <div class="navbar-collapse collapse" style="background-color:brown; padding-left:0">
-                    <ul class="nav navbar-nav"; style="padding-left:0">
-                        <li><a runat="server" style="color:pink" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About Us</a></li>
-                        <li><a runat="server" href="~/Gallery">Gallery</a></li>
-                        <li><a runat="server" href="~/Blog">Blog</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                <div class="navbar-collapse collapse" style="background-color:black">
+                    <ul class="nav navbar-nav"; style="margin-left:0px">
+                        <li><a runat="server" style="border-right-color:grey" href="~/">Home</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/About">About Us</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Gallery</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Water Gardens</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Patios</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Blog">Blog</a></li>
+                        <li><a runat="server" style="border-left-color:grey" href="~/Contact">Contact</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Register</a></li>
-                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                               
+                                <!-- <li><a runat="server" style="background-image:url(Resources/ex.jpg)" href="~/Account/Register"></a></li> 
+                                <li><a runat="server" href="~/Account/Login">Log in</a></li>  -->
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -74,8 +89,10 @@
                     </asp:LoginView>
                 </div>
             </div>
-        <!-- </div> !-->
-        <div class="container body-content" style="margin-left:0">
+        </div>
+       </div>
+            
+        <div class="container body-content" style="margin-left:200px">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />

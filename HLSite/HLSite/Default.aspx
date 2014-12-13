@@ -1,20 +1,21 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HLSite._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
-    <div class="jumbotron" style="padding-left:100px; width:1920px; background-image:url(Resources/nbapic.jpg)" >
-        <div style ="color:green">
-        <h1>Hume's Landscaping</h1>
-            </div>
-        <div style ="color:white">
-        <p class="lead">Welcome to the true Landscaping website. T's are everywhere here. <br />
-            If you're seeking a T, check our contact page. 
-        </p>
-            </div>
-    </div>
-    <br />
+    <div >
+        <img src="Resources/logoFilled.png" width ="150" height="150" />
+        <label style="margin-left:50px"> 
+            <strong>Latest Works</strong> 
+        <br />
+             Yesterday we did this, & T was the real driving force behind it: <br />
+            <img src="Resources/nbapic.jpg" height="100" width="100" style="border-color:transparent; box-shadow:rgb(39, 43, 48)"/>
+        </label>
+             
+         
 
-    <div class="row"; style="left:40px">
-        <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% !-->
+        </div>
+            
+    <div class="row"; style="left:40px; margin-top:50px">
+        <div class="col-md-6">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
             <h6>Latest News</h6>
             <div style ="color:red">
             <p>
@@ -25,26 +26,27 @@
             </p>
                 </div>
             <p>
-                <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Rickon_Stark">Who is this anyway? &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h4>Latest Works</h4>
-            <p>
-                Yesterday we did this, & T was the real driving force behind it: <br />
+            <br />
                 <br />
-                <img src="Resources/nbapic.jpg" height="120" width="120"/>
+
+                <a class="btn btn-default" style="background-color:aliceblue; color:red; border-color:azure; box-shadow: 0px -2px 2px rgba(34,34,34,0.6)" href="http://gameofthrones.wikia.com/wiki/Rickon_Stark">Who is this anyway? &raquo;</a>
             </p>
-            <p>
-                <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Jon_Snow">Who knows nothing? &raquo;</a>
-            </p>
+         
         </div>
-        <div class="col-md-4">
+
+       
+        <div class="col-md-6">
             <h3>What we offer</h3>
             <p>
                 We offer a couple million things, <br />
                 Like plants and patios.
             </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <p>
                 <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Catelyn_Stark">Her heart should be stone. &raquo;</a>
             </p>

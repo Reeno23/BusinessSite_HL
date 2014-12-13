@@ -6,6 +6,14 @@
  * Based on Bootstrap
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*Main bg color is #272b30
+
+     <div class="row"; style="left:40px">
+        <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% 
+
+
+
+*/
 html {
   font-family: f;
   -ms-t;
