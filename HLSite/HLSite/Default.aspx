@@ -7,10 +7,11 @@
             <strong>Latest Works</strong> 
         <br />
              Yesterday we did this, & T was the real driving force behind it: <br />
-            <img src="Resources/nbapic.jpg" height="100" width="100" style="border-color:transparent; box-shadow:rgb(39, 43, 48)"/>
+            <!-- <img class="fade" src="Resources/nbapic.jpg";  height="200" width="200" style="border-color:transparent" />
+            <img class="fade" src="Resources/orig3.JPG"; height="200" width="200" style="border-color:transparent; margin-left:-100px" />
+            <img class="fade" src="Resources/IMG_1029.JPG";  height="200" width="200" style="border-color:transparent; margin-left:-200px" />
+            <img class="fade" src="Resources/orig1CP.JPG"; height="200" width="200" style="border-color:transparent; margin-left:-300px" /> -->
         </label>
-             
-         
 
         </div>
             

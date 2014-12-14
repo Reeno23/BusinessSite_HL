@@ -37,22 +37,24 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-       
-       <!-- <div class="nav" style="background:black; padding-top:75px; padding-left:0"> -->
-        <div style= "background-image:url(resources/nbapic.jpg);  background-size:1920px">
-        <div class="jumbotron" style=" margin-top:-51px; background-color:transparent; background-position:center; background-position-y:top; background-repeat:no-repeat; 
-                    background-size: 1500px 600px; height:600px; background-image:url(Resources/IMG_1029.JPG);  box-shadow:rgb(39, 43, 48);"  >
-                                                                                                                                          <!-- Facebook Pic for next 5 lines. -->
-            <div style="color:lawngreen; margin-left:1710px; text-align:center; margin-top:-40px; background-image:url(Resources/nbapic.jpg)    
-                    ;background-repeat:no-repeat; background-position:center;  background-size:50px 50px" >                                          
-                 <h1>  
-                f
-                 </h1>
-                <!-- <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Rickon_Stark">Who is this anyway? &raquo;</a> -->
-            </div>
 
-            <div class="container"  style="background-color:black; padding:0px 0px 0px 0px; flood-color:black; margin-left:330px; margin-top:-40px; font-style:oblique;  border-style:hidden; width:842px">          <!-- This is the navbar -->
-                <div class="navbar-header" style="background-color:black; padding-left:0">
+       
+        <div id="cf" class="container" style="width:1920px; height:500px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 500px; background-repeat:no-repeat">
+
+                <img src="Resources/images2.jpg"; width="210" height ="500"; style="margin-left:-14px; border-radius:5px; position:absolute "  />
+                <img src="Resources/images2.jpg"; width="197" height ="500"; style="margin-left:1694px; border-radius:5px; position:absolute "  />
+                <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute "  />
+                <img class="fade" src="Resources/orig1CP.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+                <img class="fade" src="Resources/ex.jpg"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+                <img class="fade" src="Resources/IMG_1029.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+            <div style="color:lawngreen; width:1920px; height:500px" >
+                <a class ="btn btn-default" style="color:lawngreen; position:absolute; margin-left:1785px; margin-top:30px" href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">f</a>
+                
+            </div>
+            
+
+            <div class="container"  style="background-color:black; fill:black; position:absolute; margin-left:250px; margin-top:-480px; font-style:italic; width:872px">  <!-- This is the navbar -->
+                <div class="navbar-header" style="background-color:black; fill:black">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -90,9 +92,8 @@
                 </div>
             </div>
         </div>
-       </div>
             
-        <div class="container body-content" style="margin-left:200px">
+        <div class="container body-content" style="margin-left:210px">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
