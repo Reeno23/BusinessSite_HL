@@ -5,8 +5,8 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%: Page.Title %> - Hume's Landscape Service</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -15,8 +15,8 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
-    <form runat="server">
+<body style="padding-left:0">
+    <form runat="server" style="padding-left:0">
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -38,27 +38,46 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
+       
+        <div id="cf" class="container" style="width:1920px; height:500px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 500px; background-repeat:no-repeat">
+
+                <img src="Resources/images2.jpg"; width="210" height ="500"; style="margin-left:-14px; border-radius:5px; position:absolute "  />
+                <img src="Resources/images2.jpg"; width="197" height ="500"; style="margin-left:1694px; border-radius:5px; position:absolute "  />
+                <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute "  />
+                <img class="fade" src="Resources/orig1CP.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+                <img class="fade" src="Resources/ex.jpg"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+                <img class="fade" src="Resources/IMG_1029.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
+            <div style="color:lawngreen; width:1920px; height:500px" >
+                <a class ="btn btn-default" style="color:lawngreen; position:absolute; margin-left:1785px; margin-top:30px" href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">f</a>
+                
+            </div>
+            
+
+            <div class="container"  style="background-color:black; fill:black; position:absolute; margin-left:250px; margin-top:-480px; font-style:italic; width:872px">  <!-- This is the navbar -->
+                <div class="navbar-header" style="background-color:black; fill:black">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand"  runat="server" style="background-color:black" href="~/">Hume's Landscape Service</a>  <!-- This is the "logo" area, redirects to home page. -->
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                <div class="navbar-collapse collapse" style="background-color:black">
+                    <ul class="nav navbar-nav"; style="margin-left:0px">
+                        <li><a runat="server" style="border-right-color:grey" href="~/">Home</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/About">About Us</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Gallery</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Water Gardens</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Patios</a></li>
+                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Blog">Blog</a></li>
+                        <li><a runat="server" style="border-left-color:grey" href="~/Contact">Contact</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Register</a></li>
-                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                               
+                                <!-- <li><a runat="server" style="background-image:url(Resources/ex.jpg)" href="~/Account/Register"></a></li> 
+                                <li><a runat="server" href="~/Account/Login">Log in</a></li>  -->
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -73,12 +92,13 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+            
+        <div class="container body-content" style="margin-left:210px">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service</p>
             </footer>
         </div>
     </form>

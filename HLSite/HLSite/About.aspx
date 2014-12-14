@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your application description page.</h3>
-    <p>Use this area to provide additional information.</p>
+    <h3>Hey we are Hume's Landscaping. We do crazy landscaping..</h3>
+    <p>T Bone is our greatest worker.</p>
 </asp:Content>

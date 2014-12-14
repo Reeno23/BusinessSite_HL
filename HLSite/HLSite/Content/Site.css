@@ -1,14 +1,11 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -36,3 +33,60 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+/*Picture fade in-out code below. Add -moz, -o, and regular equivalents. */
+
+
+#cf {
+}
+
+#cf img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@-webkit-keyframes cfFadeInOut {
+  0% {
+    opacity:1;
+  }
+  15% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#cf img.fade {
+   -webkit-animation-name: cfFadeInOut;
+   -webkit-animation-timing-function:ease-in-out;
+   -webkit-animation-duration: 20s;           /* t=(a+b)*n where a = image screentime, b is cross fade time, n #pics         3s per pic, 2s cross fade for testing,  20=(3+2)*4 */
+   -webkit-animation-direction:normal;
+   -webkit-animation-iteration-count: infinite; 
+
+}
+
+#cf img:nth-of-type(1) {
+  -webkit-animation-delay: 0s;                /* t/n or a+b */
+}
+#cf img:nth-of-type(2) {
+  -webkit-animation-delay: -5s;
+}
+#cf img:nth-of-type(3) {
+  -webkit-animation-delay: -10s;
+}
+#cf img:nth-of-type(4) {
+  -webkit-animation-delay: -15s;
+}
+ 
+
+
+/*Picture fade in out code ends. */
