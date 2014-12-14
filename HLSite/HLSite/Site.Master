@@ -38,40 +38,50 @@
             </Scripts>
         </asp:ScriptManager>
 
-       
-        <div id="cf" class="container" style="width:1920px; height:500px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 500px; background-repeat:no-repeat">
-
-                <img src="Resources/images2.jpg"; width="210" height ="500"; style="margin-left:-14px; border-radius:5px; position:absolute "  />
-                <img src="Resources/images2.jpg"; width="197" height ="500"; style="margin-left:1694px; border-radius:5px; position:absolute "  />
-                <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute "  />
-                <img class="fade" src="Resources/orig1CP.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-                <img class="fade" src="Resources/ex.jpg"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-                <img class="fade" src="Resources/IMG_1029.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-            <div style="color:lawngreen; width:1920px; height:500px" >
-                <a class ="btn btn-default" style="color:lawngreen; position:absolute; margin-left:1785px; margin-top:30px" href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">f</a>
-                
+    <!-- Top separator and navbar section. -->
+    <div style="background-color:green; width:1920px; height:20px">
+       </div>
+        <div style="background-color:black; width:1920px; height:100px">
             </div>
-            
 
-            <div class="container"  style="background-color:black; fill:black; position:absolute; margin-left:250px; margin-top:-480px; font-style:italic; width:872px">  <!-- This is the navbar -->
-                <div class="navbar-header" style="background-color:black; fill:black">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand"  runat="server" style="background-color:black" href="~/">Hume's Landscape Service</a>  <!-- This is the "logo" area, redirects to home page. -->
-                </div>
+        <!-- Navbar section contents -->
+            <div class="container"  style="background-color:black;  position:absolute; margin-left:500px; margin-top:-70px; font-style:italic; width:872px"> 
+
+                <a class="btn btn default" style="color:lawngreen; background-image:url(Resources/logoFilled.png); position:absolute; 
+                        margin-left:-280px; height:100px; width:200px; background-position:center;
+                        background-repeat:no-repeat; margin-top:-30px" > </a>
                 <div class="navbar-collapse collapse" style="background-color:black">
                     <ul class="nav navbar-nav"; style="margin-left:0px">
-                        <li><a runat="server" style="border-right-color:grey" href="~/">Home</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/About">About Us</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Gallery</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Water Gardens</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Patios</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Blog">Blog</a></li>
-                        <li><a runat="server" style="border-left-color:grey" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/">Home</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/About">About Us</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/Gallery">Gallery</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/Gallery">Water Gardens</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/Gallery">Patios</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/Blog">Blog</a></li>
+                        <li><a runat="server" style="border-style:hidden" href="~/Contact">Contact</a></li>
                     </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -89,18 +99,74 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
-                </div>
-            </div>
-        </div>
-            
-        <div class="container body-content" style="margin-left:210px">
+    
+            <!-- Some body settings -->
+        <div class="container body-content" style="margin-left:0px; width:auto; height:auto; background-color:#002900">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service</p>
-            </footer>
         </div>
+
+
+
+
+
+        <!-- Footer -->
+        <div style="height:200px; background-color:black" >
+
+            <div class="row" style="width:1100px; position:absolute; margin-left:450px" >
+                <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
+            <h3>Follow Us</h3>
+            
+            <div style ="color:red">
+            <p>
+                Family business since '22. " <br />
+                Our main worker goes by "T".
+            </p>
+            </div>
+         </div>
+
+        <div class="col-md-4">
+            <h3>Contact Us</h3>
+
+            <div style ="color:red">
+            <address>
+                94 Niles UrMom <br />
+                Wellsboro, PA 16935<br />
+                570-724-UrDad
+            </address>
+            </div>
+        </div>
+
+        <div class="col-md--4">
+            <h3> We Support</h3>
+            <div style="color:red">
+                <p>
+                    Cash dolla bills, <br />
+                    ya'll.
+                </p>
+            </div>
+        </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div style ="width:400px; margin-top:-20px; margin-left:700px; font-size:10px; text-wrap:avoid; position:absolute" >
+            &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. 724-2124. 84 Ken-A-URMOM Lane 
+
+            
+
+        </div>
+         
     </form>
 </body>
 </html>

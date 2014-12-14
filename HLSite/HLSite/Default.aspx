@@ -1,57 +1,72 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HLSite._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
-    <div >
-        <img src="Resources/logoFilled.png" width ="150" height="150" />
-        <label style="margin-left:50px"> 
-            <strong>Latest Works</strong> 
-        <br />
-             Yesterday we did this, & T was the real driving force behind it: <br />
-            <!-- <img class="fade" src="Resources/nbapic.jpg";  height="200" width="200" style="border-color:transparent" />
-            <img class="fade" src="Resources/orig3.JPG"; height="200" width="200" style="border-color:transparent; margin-left:-100px" />
-            <img class="fade" src="Resources/IMG_1029.JPG";  height="200" width="200" style="border-color:transparent; margin-left:-200px" />
-            <img class="fade" src="Resources/orig1CP.JPG"; height="200" width="200" style="border-color:transparent; margin-left:-300px" /> -->
-        </label>
 
-        </div>
-            
-    <div class="row"; style="left:40px; margin-top:50px">
-        <div class="col-md-6">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
-            <h6>Latest News</h6>
+      <div id="cf" class="container" style="width:1920px; height:450px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 450px; background-repeat:no-repeat">
+                <img src="Resources/images2.jpg"; width="215" height ="450"; style="margin-left:-18px; border-radius:3px; position:absolute "  />
+                <img src="Resources/images2.jpg"; width="215" height ="450"; style="margin-left:1694px; border-radius:3px; position:absolute "  />
+                <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="450"; style="margin-left:195px; border-radius:3px; position:absolute "  />
+                <img class="fade" src="Resources/orig1CP.JPG"; width="1500" height ="450"; style="margin-left:195px; border-radius:3px; position:absolute " />
+                <img class="fade" src="Resources/ex.jpg"; width="1500" height ="450"; style="margin-left:195px; border-radius:3px; position:absolute " />
+                <img class="fade" src="Resources/IMG_1029.JPG"; width="1500" height ="450"; style="margin-left:195px; border-radius:3px; position:absolute " />
+            </div>
+
+    <div class="row"  style="margin-top:20px; margin-left:250px; width:1500px" >
+
+        <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
+            <h3>About Us</h3>
+            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <br />
+            <br />
+            <div style ="color:red;">
+            <p>
+                Family business since '22. " <br />
+                Our main worker goes by "T" Hehe. <br />
+                haha hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha hehe 
+            </p>
+            </div>
+         </div>
+
+        <div class="col-md-4">
+            <h3>Services we offer</h3>
+            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <br />
+            <br />
             <div style ="color:red">
             <p>
-                
-                Need some Hume's Landscaping news? How many more T's we've hired?" <br />
-                How many wheelbarrows have been flipped? We 'll tell you here.
-                  
-            </p>
-                </div>
-            <p>
-            <br />
-                <br />
-
-                <a class="btn btn-default" style="background-color:aliceblue; color:red; border-color:azure; box-shadow: 0px -2px 2px rgba(34,34,34,0.6)" href="http://gameofthrones.wikia.com/wiki/Rickon_Stark">Who is this anyway? &raquo;</a>
-            </p>
-         
-        </div>
-
-       
-        <div class="col-md-6">
-            <h3>What we offer</h3>
-            <p>
                 We offer a couple million things, <br />
-                Like plants and patios.
+                Like plants and patios. <br />
+                haha hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha <br />
+                Hehe haha hehe haha hehe haha hehe 
             </p>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <p>
-                <a class="btn btn-default" href="http://gameofthrones.wikia.com/wiki/Catelyn_Stark">Her heart should be stone. &raquo;</a>
-            </p>
+            </div>
         </div>
+
+        <div class="col-md--4">
+            <h3> Estimates & Designs</h3>
+            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <br />
+            <br />
+            <div style="color:red">
+                <p>
+                    Cash dolla bills, <br />
+                    ya'll. <br />
+                    haha hehe haha hehe haha hehe haha <br />
+                    Hehe haha hehe haha hehe haha <br />
+                    Hehe haha hehe haha hehe haha <br />
+                    Hehe haha hehe haha hehe haha <br />
+                    Hehe haha hehe haha hehe haha hehe 
+                </p>
+            </div>
+        </div>
+
     </div>
 
 </asp:Content>
