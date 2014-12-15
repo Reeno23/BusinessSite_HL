@@ -92,3 +92,116 @@ input[type="select"] {
 
 
 /*Picture fade in out code ends. */
+
+/* Gallery Picture Grid Starts below */
+
+
+
+
+
+
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 0px;       /* Was 5px*/
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+     /* Was border: 1px solid #ddd*/
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: 100%;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+    height:47.5%;
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+/*class for 5 columns*/
+ul.rig.columns-5 li {
+	width: 18.5%; /* this value + 2.5 should = 20% */
+}
+/* class for 6 columns 3 rows */
+ul.rig.columns-6 li {
+	width: 14.1%; /* this value + 2.5 should = 16.6% */
+    height: 30.83%;
+}
+/*Class for 7 columns*/
+ul.rig.columns-7 li {
+	width: 11.8%; /* this value + 2.5 should = 14.3% */
+}
+/* class for 8 columns */
+ul.rig.columns-8 li {
+	width: 10%; /* this value + 2.5 should = 12.5% */
+}
+ 
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+
+
+
+   /* Gallery Picture Grid Ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

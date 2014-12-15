@@ -15,13 +15,13 @@
 
         <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
             <h3>About Us</h3>
-            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <img src="Resources/22.JPG" style="width:300px; height:180px" />
             <br />
             <br />
             <div style ="color:red;">
             <p>
-                Family business since '22. " <br />
-                Our main worker goes by "T" Hehe. <br />
+                xxxxxxxxxxxxxxxxxxxxxxxxxx " <br />
+                xxxxxxxxxxxxxxxxxxxxxxxxxxx Hehe. <br />
                 haha hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
@@ -33,13 +33,13 @@
 
         <div class="col-md-4">
             <h3>Services we offer</h3>
-            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <img src="Resources/21.JPG" style="width:300px; height:180px" />
             <br />
             <br />
             <div style ="color:red">
             <p>
-                We offer a couple million things, <br />
-                Like plants and patios. <br />
+                Use frog pic, <br />
+                xxxxxxxxxxxxxxxxxxx <br />
                 haha hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
@@ -51,13 +51,13 @@
 
         <div class="col-md--4">
             <h3> Estimates & Designs</h3>
-            <img src="Resources/nbapic.jpg" style="width:300px; height:180px" />
+            <img src="Resources/blueprint.jpg" style="width:300px; height:180px" />
             <br />
             <br />
             <div style="color:red">
                 <p>
-                    Cash dolla bills, <br />
-                    ya'll. <br />
+                    Use blueprint pic, <br />
+                    xxxxxxxxxxxxxxxxx <br />
                     haha hehe haha hehe haha hehe haha <br />
                     Hehe haha hehe haha hehe haha <br />
                     Hehe haha hehe haha hehe haha <br />

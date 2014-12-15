@@ -20,8 +20,8 @@
             <br />
             <div style ="color:red;">
             <p>
-                Family business since '22. " <br />
-                Our main worker goes by "T" Hehe. <br />
+                xxxxxxxxxxxxxxxxxxxxxxxxxxx " <br />
+                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Hehe. <br />
                 haha hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
@@ -38,8 +38,8 @@
             <br />
             <div style ="color:red">
             <p>
-                We offer a couple million things, <br />
-                Like plants and patios. <br />
+                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br />
+                xxxxxxxxxxxxxxxxxxxxxxxx <br />
                 haha hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
                 Hehe haha hehe haha hehe haha <br />
@@ -56,8 +56,8 @@
             <br />
             <div style="color:red">
                 <p>
-                    Cash dolla bills, <br />
-                    ya'll. <br />
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxx <br />
+                    xxxxxxxxxxxxxxxxxxx <br />
                     haha hehe haha hehe haha hehe haha <br />
                     Hehe haha hehe haha hehe haha <br />
                     Hehe haha hehe haha hehe haha <br />
