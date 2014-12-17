@@ -4,3 +4,7 @@ HLSite.v12.suo
 HLSite/HLSite/bin
 domain info.txt
 "domain info.txt"
+creds.txt
+Reenomain.pem
+"Reenomain.pem"
+HLSite/HLSite/obj/*
