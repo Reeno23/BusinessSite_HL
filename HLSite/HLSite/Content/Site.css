@@ -1,4 +1,28 @@
-﻿/* Move down content because we have a fixed navbar that is 50px tall */
+﻿/* Hume's Landscape Service */
+/* #foo {} will style the single element declared with an attribute id="foo"
+.foo {} will style all elements with an attribute class="foo" (you can have multiple classes assigned to an element too, just separate them with spaces, e.g. class="foo bar")
+*/
+
+/* Miscellaneous */
+#top-bar {height:15px; background:green;}
+
+
+/* Navbar */
+#navbar {
+
+}
+
+/* Animated Image Details*/
+
+
+/* Home Content */
+
+
+
+
+
+
+
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
@@ -6,7 +30,6 @@
     padding-left: 15px;
     padding-right: 15px;
     border-color:red;
- 
 
 }
 
@@ -36,9 +59,23 @@ input[type="select"] {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Picture fade in-out code below. Add -moz, -o, and regular equivalents. */
-
-
 #cf {
 }
 
@@ -73,7 +110,6 @@ input[type="select"] {
    -webkit-animation-duration: 20s;           /* t=(a+b)*n where a = image screentime, b is cross fade time, n #pics         3s per pic, 2s cross fade for testing,  20=(3+2)*4 */
    -webkit-animation-direction:normal;
    -webkit-animation-iteration-count: infinite; 
-
 }
 
 #cf img:nth-of-type(1) {
@@ -88,19 +124,9 @@ input[type="select"] {
 #cf img:nth-of-type(4) {
   -webkit-animation-delay: -15s;
 }
- 
-
-
 /*Picture fade in out code ends. */
 
 /* Gallery Picture Grid Starts below */
-
-
-
-
-
-
-
 ul.rig {
 	list-style: none;
 	font-size: 0px;
@@ -180,9 +206,6 @@ ul.rig.columns-8 li {
 		margin: 0 0 20px;
 	}
 }
-
-
-
    /* Gallery Picture Grid Ends here*/
 
 
