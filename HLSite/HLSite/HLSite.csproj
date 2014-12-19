@@ -168,6 +168,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\ulMess.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Gallery.aspx" />
     <Content Include="packages.config" />
@@ -184,6 +185,7 @@
     <Content Include="Resources\blueprint.jpg" />
     <Content Include="Resources\23.jpg" />
     <Content Include="Resources\ex.jpg" />
+    <Content Include="Resources\facebook.png" />
     <Content Include="Resources\images1.jpg" />
     <Content Include="Resources\images2.jpg" />
     <Content Include="Resources\images3.jpg" />

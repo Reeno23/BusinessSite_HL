@@ -10,7 +10,8 @@
     <meta name="keywords" content="Pennsylvania, Wellsboro, Hume, landscaping, landscape, patio, ponds, waterfalls" />
     <meta name="author" content="Chris Hume" />
     
-    <link href="~/Resources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/ulMess.css" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
     
 </head>
@@ -26,31 +27,44 @@
 
                 <!-- Nav is: Home, Services(water gardens, hardscapes, outdoor lighting), About Us, Gallery, Contact ^Facebook-->
                 <div id="nav-leftpic">
-                   <img src="Resources/words1.png" />
+                    <a href="Default">
+                   <img src="Resources/words1.png" /> </a>
                 </div>
 
                 <div id="nav-contents">
+
                     <ul class="navbar-nav" >
-                        <li><a runat="server" style="border-style:hidden" href="~/">Home</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/About">About Us</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/Gallery">Gallery</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/Resources/orig3.JPG">Water Gardens</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/Gallery">Patios</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/Blog">Blog</a></li>
-                        <li><a runat="server" style="border-style:hidden" href="~/Contact">Contact</a></li>
+                        <li><a runat="server"  href="~/">Home</a></li>
+                        <li><a runat="server" href="~/Gallery">Services</a>
+                            <!-- Menu Dropdown -->
+                            <ul>
+                                <li><a runat="server"  href="~/Gallery">Hardscapes</a></li>
+                                <li><a runat="server"  href="~/Gallery">Water Gardens</a></li>
+                                <li><a runat="server"   href="~/Gallery">Outdoor Lighting</a></li>
+                           </ul>
+                        </li>
+                        <li><a runat="server" href="~/About">About Us</a></li>
+                        <li><a runat="server" href="~/Gallery">Gallery</a></li>
+                        <li><a runat="server" href="~/Blog">Blogddd</a></li> <!-- This is contact -->
+                       
                     </ul>
                  </div>
-                
-              
+
+                <!-- Facebook right side -->
+                <div id="nav-rightpic">
+                    <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
+                    <img src="Resources/facebook.png" /> </a>
+                </div>
+
+
+
 
              </div>
         </div>
 
+        <!-- Tiny separator bar below navbar -->
+        <div class="topline-two" > </div>
     
-    
-        <div style="background-color:#917B61; height:8px; width:100%" >
-        
-    </div>
 
         <!-- Must be here apparently -->
               <asp:ContentPlaceHolder ID="MainContent" runat="server">

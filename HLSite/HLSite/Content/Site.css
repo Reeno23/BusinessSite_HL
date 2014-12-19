@@ -6,23 +6,24 @@
 /* 982 body, 21 margins*/
 /* Miscellaneous */
 #top-line {
+    width:100%;
     height: 20px;
     background-color: #5F0C1A;
     
 }
     
-
-#nav-bg {width:100%; background-color:#261906; background-position-x:center; background-position-y:center; position:relative}
-ul {list-style-type:none;}
-li a {color:#CDC9B0; padding-left:20px;}
-
+#nav-bg {width:100%; background-color:#261906; position:relative}
+#nav-contents .navbar-nav li a {border-style:hidden; background-color:#261906;}
 
 /* Navbar */
 #header {
+
     height:110px;
     margin:0 auto;
     width:982px;
 }
+
+
 #nav-leftpic img {
     float:left;
     margin-top:5px;
@@ -39,15 +40,21 @@ li a {color:#CDC9B0; padding-left:20px;}
     margin-top: 60px;
     
 }
-#nav-rightpic img {
+#nav-rightpic img { /* Facebook link */
     float:right;
     margin-top:5px;
-    width:50px;
-    height:75px;
+    width:25px;
+    height:30px;
 
 }
 
-/* Animated Image Details*/
+/* Separator between header & pic */
+.topline-two{
+    background-color:#917B61; height:8px; width:100%;
+}
+
+
+/* Top animated image details*/
 .cf-container{
     
     position:relative;
@@ -57,30 +64,42 @@ li a {color:#CDC9B0; padding-left:20px;}
 
 }
 
-/* Home Content */
+/* Regular top image details */
+.topimg-container{
 
-
-
-
-
-
-
-
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-    border-color:red;
 
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+
+
+
+/* Body Wrapper */
+.bodyWrapper{
+    background-color:#917B61; 
+    position:relative; 
+    width:100%;
+
 }
+
+
+
+
+
+
+/* Body Content */
+.body-content { 
+    /* padding maybe? */
+    background-color:#917B61;
+    margin:0 auto;
+    width:982px;
+
+}
+
+
+
+
+
+
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input[type="text"],
@@ -124,6 +143,7 @@ input[type="select"] {
 
 #cf img {
    position: absolute;
+   overflow:hidden;
    width:100%;
    height:100%;
   -webkit-transition: opacity 1s ease-in-out;

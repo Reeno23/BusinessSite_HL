@@ -13,26 +13,13 @@
                 <img class="fade" src="Resources/1.JPG" />
             </div>
 
-
-
-    
-
-
-
     <!-- Body -->
-    <div class="bodyWrapper" style="width:1920px; height:500px; background-color:#917B61; position:relative">
+    <div class="bodyWrapper" style="height:500px">
+        <div class="body-content">
 
-
-  
-
-
-
-        
-        <div class="container body-content" style="width:1024px; height:500px; background-color:#917B61; ">
-      
-            <div class="row"  style="margin-top:20px;"  >
-
-        <div class="col-md-4" style="color:#5F0C1A; font-family:'Comic Sans MS' ">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
+            <div class="row" >
+                <!-- Row section one -->
+        <div class="col-md-4" style="color:#5F0C1A">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
             <h3>About Us</h3>
             <img src="Resources/22.JPG" style="width:300px; height:180px" />
             <br />
@@ -49,7 +36,7 @@
             </p>
             </div>
          </div>
-
+                <!-- Row section two -->
         <div class="col-md-4" style="color:#5F0C1A">
             <h3>Services we offer</h3>
             <img src="Resources/21.JPG" style="width:300px; height:180px" />
@@ -67,7 +54,7 @@
             </p>
             </div>
         </div>
-
+                <!-- Row section three -->
         <div class="col-md-4" style="color:#5F0C1A">
             <h3> Estimates & Designs</h3>
             <img src="Resources/blueprint.jpg" style="width:300px; height:180px" />
@@ -83,51 +70,24 @@
                     Hehe haha hehe haha hehe haha <br />
                     Hehe haha hehe haha hehe haha hehe 
                 </p>
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-            
-
+              </div>
+            </div> 
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
+      </div>
 
 
+        <!-- Footer |Tree(like 150 by 100)|  CHANGE BODYWRAPPER -->
+
+    <div class="bodyWrapper" style="height:150px; background-color:black;">
+       
 
 
+        <div style="background-color:black; width:986px; margin:0 auto;"   >
 
-        <!-- Footer contents: Tree(like 150 by 100), -->
-        <div style="height:200px; background-color:black;  width:100%" >
+            <div class="row"  >
 
-            <div class="row" style="width:1100px; margin-left:450px" >
-                <div class="col-md-4">   <!-- This means it uses 33% of the row, col-md-5 is 42% -->
+                <div class="col-md-4">   
             <h3>Follow Us</h3>
             
             <div style ="color:red">
@@ -159,32 +119,17 @@
                 </p>
             </div>
         </div>
-
-
-
-            </div>
+       </div>
 
         </div>
 
-        <div style ="width:400px; margin-top:-20px; text-align:center; font-size:10px; text-wrap:avoid;" >
+        <div style ="margin:0 auto; text-align:center; font-size:10px; text-wrap:avoid; background-color:black;" >
             &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. 724-2124. 84 Ken-A-xxxxx Lane 
 
             
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
 
 </asp:Content>

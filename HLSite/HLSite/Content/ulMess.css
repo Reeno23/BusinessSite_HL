@@ -1,0 +1,61 @@
+﻿/* Lists & their drop down lists' messes. Doesn't need to be cluttering main css */
+
+ul {list-style-type:none; display: inline; }
+li:hover { background-color:#261906;}
+li a {color:#CDC9B0;}
+
+ul li {
+    border-style:hidden;
+    background-color:#261906;
+    padding-left: 50px;
+    display: inline-block;
+    position:relative;
+    border-style:none;
+}
+
+ul .navbar-nav li a {
+    border-style: hidden;
+    background-color:#261906;
+}
+
+/* On hover nav li color*/
+#nav-contents .navbar-nav li a:hover {
+    background-color:#261906;
+}
+
+
+ul li:hover {
+    background-color:#261906;
+}
+
+ul li ul {
+    top: -30px;
+    z-index:200;
+    position:absolute;
+    width:160px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+ul li ul a {
+    color:red;
+    margin-left:-20px;
+}
+
+
+ul li ul li {
+    background: #555;
+    display:block;
+    color: #fff;
+
+}
+
+ul li ul li:hover {background-color:#261906}
+
+ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
