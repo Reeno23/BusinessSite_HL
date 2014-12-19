@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
 
-      <div id="cf" class="container" style="width:1920px; height:450px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 450px; background-repeat:no-repeat">
+      <div id="cfb" class="container" style="width:1920px; height:450px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 450px; background-repeat:no-repeat">
                 <img src="Resources/images2.jpg"; width="215" height ="450"; style="margin-left:-18px; border-radius:3px; position:absolute "  />
                 <img src="Resources/images2.jpg"; width="215" height ="450"; style="margin-left:1694px; border-radius:3px; position:absolute "  />
                 <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="450"; style="margin-left:195px; border-radius:3px; position:absolute "  />

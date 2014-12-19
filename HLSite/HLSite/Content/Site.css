@@ -3,17 +3,59 @@
 .foo {} will style all elements with an attribute class="foo" (you can have multiple classes assigned to an element too, just separate them with spaces, e.g. class="foo bar")
 */
 
+/* 982 body, 21 margins*/
 /* Miscellaneous */
-#top-bar {height:15px; background:green;}
+#top-line {
+    height: 20px;
+    background-color: #5F0C1A;
+    
+}
+    
+
+#nav-bg {width:100%; background-color:#261906; background-position-x:center; background-position-y:center; position:relative}
+ul {list-style-type:none;}
+li a {color:#CDC9B0; padding-left:20px;}
 
 
 /* Navbar */
-#navbar {
+#header {
+    height:110px;
+    margin:0 auto;
+    width:982px;
+}
+#nav-leftpic img {
+    float:left;
+    margin-top:5px;
+    width:200px; 
+    height:100px;
+}
+#nav-contents {
+    margin: 0 auto;
+    color:black;
+    width:600px;
+}
+#nav-contents ul { /* Contains margin-left of 60px. */
+
+    margin-top: 60px;
+    
+}
+#nav-rightpic img {
+    float:right;
+    margin-top:5px;
+    width:50px;
+    height:75px;
 
 }
 
 /* Animated Image Details*/
+.cf-container{
+    
+    position:relative;
+    background-repeat:no-repeat;
+    width:100%;
+    height:450px;
 
+}
 
 /* Home Content */
 
@@ -77,13 +119,18 @@ input[type="select"] {
 
 /*Picture fade in-out code below. Add -moz, -o, and regular equivalents. */
 #cf {
+
 }
 
 #cf img {
+   position: absolute;
+   width:100%;
+   height:100%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  
 }
 
 @-webkit-keyframes cfFadeInOut {
@@ -110,6 +157,7 @@ input[type="select"] {
    -webkit-animation-duration: 20s;           /* t=(a+b)*n where a = image screentime, b is cross fade time, n #pics         3s per pic, 2s cross fade for testing,  20=(3+2)*4 */
    -webkit-animation-direction:normal;
    -webkit-animation-iteration-count: infinite; 
+   
 }
 
 #cf img:nth-of-type(1) {
