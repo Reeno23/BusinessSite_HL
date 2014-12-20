@@ -1,146 +1,49 @@
-﻿/* Hume's Landscape Service */
-/* #foo {} will style the single element declared with an attribute id="foo"
-.foo {} will style all elements with an attribute class="foo" (you can have multiple classes assigned to an element too, just separate them with spaces, e.g. class="foo bar")
-*/
+﻿
 
-/* 982 body, 21 margins*/
+
 /* Miscellaneous */
-#top-line {
-    width:100%;
-    height: 20px;
-    background-color: #5F0C1A;
-    
-}
-    
-#nav-bg {width:100%; background-color:#261906; position:relative}
-#nav-contents .navbar-nav li a {border-style:hidden; background-color:#261906;}
-
+#top-line { width:100%; height: 20px;background-color: #0A3C19;}
+#nav-bg { width:100%; background-color:#112241; position:relative}
+.row { margin:0px 15px;}
+.col-md-4{color:#112E44; font-family:Cooper;}
+.col-md-4 img { width:280px; height:175px;}
+h3 {color:#150803; font-family:Cooper;}
+ 
 /* Navbar */
-#header {
-
-    height:110px;
-    margin:0 auto;
-    width:982px;
-}
-
-
-#nav-leftpic img {
-    float:left;
-    margin-top:5px;
-    width:200px; 
-    height:100px;
-}
-#nav-contents {
-    margin: 0 auto;
-    color:black;
-    width:600px;
-}
-#nav-contents ul { /* Contains margin-left of 60px. */
-
-    margin-top: 60px;
-    
-}
-#nav-rightpic img { /* Facebook link */
-    float:right;
-    margin-top:5px;
-    width:25px;
-    height:30px;
-
-}
+#header { height:110px; margin:0 auto; width:982px;}
+#nav-leftpic img { float:left; margin: 5px 0px 0px 30px; width:200px; height:100px;}
+#nav-contents { margin: 0 auto;color:black;width:600px; font-family:Rockwell;}
+#nav-contents ul { /* Contains margin-left of 60px. */margin-top: 60px;}
+#nav-righttext-1 { font-style:italic;margin-left:735px;margin-top:30px;position:absolute;font-size:10px;}
+#nav-righttext-2 { font-style:italic; margin-left:735px;margin-top:60px;position:absolute;font-size:10px;}
+#nav-rightpic img { float:right; margin-top:20px;margin-right: 120px;width:25px;height:25px;}
 
 /* Separator between header & pic */
-.topline-two{
-    background-color:#917B61; height:8px; width:100%;
-}
-
+.topline-two { background-color:#063213; height:8px; width:100%;}
 
 /* Top animated image details*/
-.cf-container{
-    
-    position:relative;
-    background-repeat:no-repeat;
-    width:100%;
-    height:450px;
-
-}
+.cf-container { position:relative;background-repeat:no-repeat; width:100%; height:375px;}
 
 /* Regular top image details */
-.topimg-container{
-
-
-}
-
-
-
-
-/* Body Wrapper */
-.bodyWrapper{
-    background-color:#917B61; 
-    position:relative; 
-    width:100%;
+.topimg-container {
 
 }
 
+/* Body Stuff */
+.bodyWrapper { background-color:#5B4926;  position:relative; width:100%;}
+.body-content { font-size:14px;background-color:#5B4926;margin:0 auto;width:982px;}
+
+/* Footer stuff */
+.footerWrapper { background-color:#063213; width:100%; height:100px;}
+.footerLogo { height:95px; width:95px;display:block; margin:auto auto;padding-top:5px;}
+.footer-content { background-color:#063213;color:#308497;text-align:center;font-size:11px;}
+.footer-content a{color:#75C8CD;}
 
 
 
 
-
-/* Body Content */
-.body-content { 
-    /* padding maybe? */
-    background-color:#917B61;
-    margin:0 auto;
-    width:982px;
-
-}
-
-
-
-
-
-
-
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="select"] {
-    max-width: 280px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        margin-top: 20px;
-    }
-    .body-content {
-        padding: 0;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Picture fade in-out code below. Add -moz, -o, and regular equivalents. */
-#cf {
-
-}
-
+/* Picture fade in-out animation. Add -moz & -o equivalents. */
+#cf {}
 #cf img {
    position: absolute;
    overflow:hidden;
@@ -192,9 +95,8 @@ input[type="select"] {
 #cf img:nth-of-type(4) {
   -webkit-animation-delay: -15s;
 }
-/*Picture fade in out code ends. */
 
-/* Gallery Picture Grid Starts below */
+/* Gallery Picture Grid */
 ul.rig {
 	list-style: none;
 	font-size: 0px;
@@ -274,7 +176,7 @@ ul.rig.columns-8 li {
 		margin: 0 0 20px;
 	}
 }
-   /* Gallery Picture Grid Ends here*/
+
 
 
 

@@ -1,4 +1,9 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
+﻿<!--
+Author:  Chris Hume
+Company: Hume's Landscape Service 
+Thanks to: "CG" for the layout inspiration and overall HTML style influence for a complete beginner. Nicest coding style & technique out of any 100+ websites and designers examined.
+-->
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -13,64 +18,68 @@
     <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    
 </head>
+
 <body >
-    <form runat="server">
+<form runat="server">
 
-    <!-- Top spacer line -->
-    <div id="top-line"></div>
+<!-- Top spacer line -->
+<div id="top-line"></div>
  
-        <!-- Site-wide Header: Left picture | Main nav | Right picture -->
-        <div id ="nav-bg">
-            <div id="header"> 
+<!-- Site-wide Header: Left picture | Main nav | Right contents -->
+<div id="nav-bg">
+<div id="header"> 
 
-                <!-- Nav is: Home, Services(water gardens, hardscapes, outdoor lighting), About Us, Gallery, Contact ^Facebook-->
-                <div id="nav-leftpic">
-                    <a href="Default">
-                   <img src="Resources/words1.png" /> </a>
-                </div>
+<!-- Left section -->
+<div id="nav-leftpic">
+    <a href="Default">
+    <img src="Resources/words2.png" /> </a>
+</div>
 
-                <div id="nav-contents">
+<!-- Center section -->
+<div id="nav-contents">
+<ul class="navbar-nav" >
+<li><a runat="server"  href="~/">Home</a></li>
 
-                    <ul class="navbar-nav" >
-                        <li><a runat="server"  href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Gallery">Services</a>
-                            <!-- Menu Dropdown -->
-                            <ul>
-                                <li><a runat="server"  href="~/Gallery">Hardscapes</a></li>
-                                <li><a runat="server"  href="~/Gallery">Water Gardens</a></li>
-                                <li><a runat="server"   href="~/Gallery">Outdoor Lighting</a></li>
-                           </ul>
-                        </li>
-                        <li><a runat="server" href="~/About">About Us</a></li>
-                        <li><a runat="server" href="~/Gallery">Gallery</a></li>
-                        <li><a runat="server" href="~/Blog">Blogddd</a></li> <!-- This is contact -->
-                       
-                    </ul>
-                 </div>
+<!-- Services dropdown -->
+<li><a runat="server" href="~/Gallery">Services</a>
+<ul>
+    <li><a runat="server"  href="~/Gallery">Hardscapes</a></li>
+    <li><a runat="server"  href="~/Gallery">Water Gardens</a></li>
+    <li><a runat="server"  href="~/Gallery">Outdoor Lighting</a></li>
+</ul>
+</li>
 
-                <!-- Facebook right side -->
-                <div id="nav-rightpic">
-                    <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-                    <img src="Resources/facebook.png" /> </a>
-                </div>
+<li><a runat="server" href="~/About">About Us</a></li>
+<li><a runat="server" href="~/Gallery">Gallery</a></li>
+<li><a runat="server" href="~/Blog">Contact</a></li>                  
+</ul>
+</div>
 
+<!-- Right section -->
+<div id="nav-righttext-1" >
+    Visit us on facebook                 
+</div>
+<div id="nav-righttext-2" >
+    Email:
+    <a href="mailto:humeslandscape@gmail.com">
+    <p>humeslandscape@gmail.com</p> </a>
+</div>
+<div id="nav-rightpic">
+    <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
+    <img src="Resources/facebook.png" /> </a>
+</div>
+</div>
+</div>
 
-
-
-             </div>
-        </div>
-
-        <!-- Tiny separator bar below navbar -->
-        <div class="topline-two" > </div>
+<!-- Tiny separator bar below navbar -->
+<div class="topline-two" > </div>
     
-
-        <!-- Must be here apparently -->
-              <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+<!-- Necessary -->
+<asp:ContentPlaceHolder ID="MainContent" runat="server">
+</asp:ContentPlaceHolder>
          
-    </form>
+</form>
 </body>
 </html>
 

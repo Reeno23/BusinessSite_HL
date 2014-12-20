@@ -1,61 +1,59 @@
 ﻿/* Lists & their drop down lists' messes. Doesn't need to be cluttering main css */
 
-ul {list-style-type:none; display: inline; }
-li:hover { background-color:#261906;}
-li a {color:#CDC9B0;}
+
+#nav-contents .navbar-nav li a{border-style:hidden !important;}
+li:hover a {background:#112241 !important; cursor:pointer;}
+ul li:hover ul li a {background: #112241 !important;}
+ul li:hover ul li {background: #112241 !important;}
+
+li a:hover{color:lawngreen;}
+
 
 ul li {
     border-style:hidden;
-    background-color:#261906;
-    padding-left: 50px;
+    background-color:#112241;
+    padding-left: 30px;
     display: inline-block;
     position:relative;
-    border-style:none;
-}
-
-ul .navbar-nav li a {
-    border-style: hidden;
-    background-color:#261906;
-}
-
-/* On hover nav li color*/
-#nav-contents .navbar-nav li a:hover {
-    background-color:#261906;
-}
-
-
-ul li:hover {
-    background-color:#261906;
 }
 
 ul li ul {
-    top: -30px;
+    margin-top:5px !important;
+    margin-left:-15px;
     z-index:200;
     position:absolute;
-    width:160px;
+    background:black;
+    width:130px;
+    padding-bottom:5px;
     display: none;
     opacity: 0;
     visibility: hidden;
-    
 }
 
 ul li ul a {
-    color:red;
-    margin-left:-20px;
-}
+    position:relative;
+    z-index:220;
+    margin-left: -55px;
+    color:white;
 
+  
+}
 
 ul li ul li {
-    background: #555;
+    background:#112241;
     display:block;
-    color: #fff;
-
+    color: #261906;
+    padding-top:5px;
 }
 
-ul li ul li:hover {background-color:#261906}
+ul li ul li:hover {
+    background-color:#112241
+}
 
 ul li:hover ul {
+    background:#112241;
     display: block;
     opacity: 1;
     visibility: visible;
 }
+
