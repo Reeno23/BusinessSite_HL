@@ -7,8 +7,8 @@
 <div id="cf" class="cf-container" style="background-image:url(Resources/images4.png)">
     <img class="fade" src="Resources/orig3.JPG" />           
     <img class="fade" src="Resources/2.JPG" />
-    <img class="fade" src="Resources/IMG_1029.JPG" />
-    <img class="fade" src="Resources/1.JPG" />
+    <img class="fade" src="Resources/crop1.jpg" />
+    <img class="fade" src="Resources/crop2.jpg" />
 </div>
 
 <!-- Body -->

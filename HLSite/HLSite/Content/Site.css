@@ -1,16 +1,19 @@
-﻿
+﻿/* Author: Chris Hume */
 
 
 /* Miscellaneous */
+@viewport{ width:1024px; }
+body{ font-size:14px;background-color:#5B4926;}
 #top-line { width:100%; height: 20px;background-color: #0A3C19;}
 #nav-bg { width:100%; background-color:#112241; position:relative}
-.row { margin:0px 15px;}
-.col-md-4{color:#112E44; font-family:Cooper;}
-.col-md-4 img { width:280px; height:175px;}
+.row { margin: 0 auto;}
+.col-md-4 { color: #112E44; font-family: Cooper; float:left;}
+.col-md-4 p { display:block; width:270px; }
+.col-md-4 img { width:280px; height:175px; padding-bottom:10px;}
 h3 {color:#150803; font-family:Cooper;}
  
 /* Navbar */
-#header { height:110px; margin:0 auto; width:982px;}
+#header { min-height:110px; margin:0 auto; width:982px;}
 #nav-leftpic img { float:left; margin: 5px 0px 0px 30px; width:200px; height:100px;}
 #nav-contents { margin: 0 auto;color:black;width:600px; font-family:Rockwell;}
 #nav-contents ul { /* Contains margin-left of 60px. */margin-top: 60px;}
@@ -22,23 +25,24 @@ h3 {color:#150803; font-family:Cooper;}
 .topline-two { background-color:#063213; height:8px; width:100%;}
 
 /* Top animated image details*/
-.cf-container { position:relative;background-repeat:no-repeat; width:100%; height:375px;}
+.cf-container { position:relative;background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
 
 /* Regular top image details */
-.topimg-container {
+.topimg-container { position:relative; background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
 
-}
-
-/* Body Stuff */
-.bodyWrapper { background-color:#5B4926;  position:relative; width:100%;}
-.body-content { font-size:14px;background-color:#5B4926;margin:0 auto;width:982px;}
+/* Body stuff */
+.bodyWrapper { background-color:#5B4926;  width:100%; }
+.body-content { margin:0 auto;width:982px; padding-left:10px; padding-bottom:30px; }
 
 /* Footer stuff */
-.footerWrapper { background-color:#063213; width:100%; height:100px;}
+.footerWrapper { background-color:#063213; width:100%; min-height:100px; position:relative}
 .footerLogo { height:95px; width:95px;display:block; margin:auto auto;padding-top:5px;}
 .footer-content { background-color:#063213;color:#308497;text-align:center;font-size:11px;}
 .footer-content a{color:#75C8CD;}
 
+/* Gallery stuff */
+.galRight{float:right; margin-top:-410px; margin-left:-500px; text-align:center;}
+.galRight h3{margin-left:28px}
 
 
 
@@ -53,7 +57,6 @@ h3 {color:#150803; font-family:Cooper;}
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  
 }
 
 @-webkit-keyframes cfFadeInOut {
@@ -80,7 +83,6 @@ h3 {color:#150803; font-family:Cooper;}
    -webkit-animation-duration: 20s;           /* t=(a+b)*n where a = image screentime, b is cross fade time, n #pics         3s per pic, 2s cross fade for testing,  20=(3+2)*4 */
    -webkit-animation-direction:normal;
    -webkit-animation-iteration-count: infinite; 
-   
 }
 
 #cf img:nth-of-type(1) {
@@ -130,17 +132,37 @@ ul.rig li p {
 	color: #999;
 }
 /* class for 2 columns */
+ul.rig.columns-2 { 
+    width:300px; 
+    height:300px;
+}
 ul.rig.columns-2 li {
 	width: 47.5%; /* this value + 2.5 should = 50% */
     height:47.5%;
+}
+ul.rig.columns-2 li img {
+}
+ul.rig.columns-2 li p {
+    font-size:16px;
+    color:red;
+    margin-top:-30px;
+    margin-left:-50px;
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
 	width: 30.83%; /* this value + 2.5 should = 33% */
 }
-/* class for 4 columns */
+/* class for 4 columns 3 rows */
+ul.rig.columns-4{
+    margin-left:-50px;
+    position:relative;
+    width:650px; 
+    height:350px;
+}
 ul.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
+    height:30.83%;
+    
 }
 /*class for 5 columns*/
 ul.rig.columns-5 li {
@@ -172,7 +194,7 @@ ul.rig.columns-8 li {
 		margin-left: 0;
 	}
 	ul.rig li {
-		width: 100% !important; /* over-ride all li styles */
+		width: 100% !important; 
 		margin: 0 0 20px;
 	}
 }

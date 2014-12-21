@@ -11,7 +11,7 @@ Thanks to: "CG" for the layout inspiration and overall HTML style influence for 
 <head runat="server">
     <meta charset="utf-8" />
     <title><%: Page.Title %> | Hume's Landscape Service</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" />
     <meta name="keywords" content="Pennsylvania, Wellsboro, Hume, landscaping, landscape, patio, ponds, waterfalls" />
     <meta name="author" content="Chris Hume" />
     
@@ -42,16 +42,25 @@ Thanks to: "CG" for the layout inspiration and overall HTML style influence for 
 <li><a runat="server"  href="~/">Home</a></li>
 
 <!-- Services dropdown -->
-<li><a runat="server" href="~/Gallery">Services</a>
+<li><a runat="server" href="~/About">Services</a>
 <ul>
-    <li><a runat="server"  href="~/Gallery">Hardscapes</a></li>
-    <li><a runat="server"  href="~/Gallery">Water Gardens</a></li>
-    <li><a runat="server"  href="~/Gallery">Outdoor Lighting</a></li>
+    <li><a runat="server"  href="~/About">Hardscapes</a></li>
+    <li><a runat="server"  href="~/About">Water Gardens</a></li>
+    <li><a runat="server"  href="~/About">Outdoor Lighting</a></li>
 </ul>
 </li>
 
 <li><a runat="server" href="~/About">About Us</a></li>
-<li><a runat="server" href="~/Gallery">Gallery</a></li>
+
+<!-- Gallery dropdown -->
+<li><a runat="server" href="~/Gallery">Gallery</a>
+<ul>
+    <li><a runat="server"  href="~/About">Hardscapes</a></li>
+    <li><a runat="server"  href="~/About">Water Gardens</a></li>
+    <li><a runat="server"  href="~/About">Outdoor Lighting</a></li>
+</ul>
+</li>
+
 <li><a runat="server" href="~/Blog">Contact</a></li>                  
 </ul>
 </div>
@@ -75,10 +84,8 @@ Thanks to: "CG" for the layout inspiration and overall HTML style influence for 
 <!-- Tiny separator bar below navbar -->
 <div class="topline-two" > </div>
     
-<!-- Necessary -->
 <asp:ContentPlaceHolder ID="MainContent" runat="server">
 </asp:ContentPlaceHolder>
-         
 </form>
 </body>
 </html>
