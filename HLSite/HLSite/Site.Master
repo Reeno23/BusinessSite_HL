@@ -1,106 +1,94 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
+﻿<!--
+Author:  Chris Hume
+Company: Hume's Landscape Service 
+Thanks to: "CG" for the layout inspiration and overall HTML + css style influence for a complete beginner. Nicest coding style & technique out of any 50+ websites and designers examined.
+-->
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title><%: Page.Title %> - Hume's Landscape Service</title>
-
-    <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
-    </asp:PlaceHolder>
+    <title><%: Page.Title %> | Hume's Landscape Service</title>
+    <meta name="viewport" />
+    <meta name="keywords" content="Pennsylvania, Wellsboro, Hume, landscaping, landscape, patio, ponds, waterfalls" />
+    <meta name="author" content="Chris Hume" />
+    
+    <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/ulMess.css" />
+    <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />
+    
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 </head>
-<body style="padding-left:0">
-    <form runat="server" style="padding-left:0">
-        <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
-                <asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
-                <asp:ScriptReference Name="respond" />
-                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                <asp:ScriptReference Name="WebFormsBundle" />
-                <%--Site Scripts--%>
-            </Scripts>
-        </asp:ScriptManager>
 
-       
-        <div id="cf" class="container" style="width:1920px; height:500px; background-image:url(Resources/images4.png); background-position-x:center; background-size:1500px 500px; background-repeat:no-repeat">
+<body >
+<form runat="server">
 
-                <img src="Resources/images2.jpg"; width="210" height ="500"; style="margin-left:-14px; border-radius:5px; position:absolute "  />
-                <img src="Resources/images2.jpg"; width="197" height ="500"; style="margin-left:1694px; border-radius:5px; position:absolute "  />
-                <img class="fade" src="Resources/orig3.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute "  />
-                <img class="fade" src="Resources/orig1CP.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-                <img class="fade" src="Resources/ex.jpg"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-                <img class="fade" src="Resources/IMG_1029.JPG"; width="1500" height ="500"; style="margin-left:195px; border-radius:5px; position:absolute " />
-            <div style="color:lawngreen; width:1920px; height:500px" >
-                <a class ="btn btn-default" style="color:lawngreen; position:absolute; margin-left:1785px; margin-top:30px" href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">f</a>
-                
-            </div>
-            
+<!-- Top spacer line -->
+<div id="top-line"></div>
+ 
+<!-- Site-wide Header: Left picture | Main nav | Right contents -->
+<div id="nav-bg">
+<div id="header"> 
 
-            <div class="container"  style="background-color:black; fill:black; position:absolute; margin-left:250px; margin-top:-480px; font-style:italic; width:872px">  <!-- This is the navbar -->
-                <div class="navbar-header" style="background-color:black; fill:black">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand"  runat="server" style="background-color:black" href="~/">Hume's Landscape Service</a>  <!-- This is the "logo" area, redirects to home page. -->
-                </div>
-                <div class="navbar-collapse collapse" style="background-color:black">
-                    <ul class="nav navbar-nav"; style="margin-left:0px">
-                        <li><a runat="server" style="border-right-color:grey" href="~/">Home</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/About">About Us</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Gallery</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Water Gardens</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Gallery">Patios</a></li>
-                        <li><a runat="server" style="border-left-color:grey; border-right-color:grey" href="~/Blog">Blog</a></li>
-                        <li><a runat="server" style="border-left-color:grey" href="~/Contact">Contact</a></li>
-                    </ul>
-                    <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
-                            <ul class="nav navbar-nav navbar-right">
-                               
-                                <!-- <li><a runat="server" style="background-image:url(Resources/ex.jpg)" href="~/Account/Register"></a></li> 
-                                <li><a runat="server" href="~/Account/Login">Log in</a></li>  -->
-                            </ul>
-                        </AnonymousTemplate>
-                        <LoggedInTemplate>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a></li>
-                                <li>
-                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
-                                </li>
-                            </ul>
-                        </LoggedInTemplate>
-                    </asp:LoginView>
-                </div>
-            </div>
-        </div>
-            
-        <div class="container body-content" style="margin-left:210px">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service</p>
-            </footer>
-        </div>
-    </form>
+<!-- Left section -->
+<div id="nav-leftpic">
+    <a href="Default">
+    <img src="Resources/words2.png" /> </a>
+</div>
+
+<!-- Center section -->
+<div id="nav-contents">
+<ul class="navbar-nav" >
+<li><a runat="server"  href="~/">Home</a></li>
+
+<!-- Services dropdown -->
+<li><a runat="server" href="~/About">Services</a>
+<ul>
+    <li><a runat="server"  href="~/About">Hardscapes</a></li>
+    <li><a runat="server"  href="~/About">Water Gardens</a></li>
+    <li><a runat="server"  href="~/About">Outdoor Lighting</a></li>
+</ul>
+</li>
+
+<li><a runat="server" href="~/About">About Us</a></li>
+
+<!-- Gallery dropdown -->
+<li><a runat="server" href="~/Gallery">Gallery</a>
+<ul>
+    <li><a runat="server"  href="~/galHardscapes">Hardscapes</a></li>
+    <li><a runat="server"  href="~/galWatergardens">Water Gardens</a></li>
+</ul>
+</li>
+
+<li><a runat="server" href="~/Blog">Contact</a></li>                  
+</ul>
+</div>
+
+<!-- Right section -->
+<div id="nav-righttext-1" >
+    Visit us on facebook                 
+</div>
+<div id="nav-righttext-2" >
+    Email:
+    <a href="mailto:humeslandscape@gmail.com">
+    <p>humeslandscape@gmail.com</p> </a>
+</div>
+<div id="nav-rightpic">
+    <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
+    <img src="Resources/facebook.png" /> </a>
+</div>
+</div>
+</div>
+
+<!-- Tiny separator bar below navbar -->
+<div class="topline-two" > </div>
+    
+<asp:ContentPlaceHolder ID="MainContent" runat="server">
+</asp:ContentPlaceHolder>
+</form>
 </body>
 </html>
+
+

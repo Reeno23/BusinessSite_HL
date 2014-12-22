@@ -7,13 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace HLSite
 {
-    public partial class Blog : System.Web.UI.Page
+    public partial class galHardscapes : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-  
+
         }
-
     }
-
-    }
+}

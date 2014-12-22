@@ -1,0 +1,59 @@
+﻿/* Lists & their drop down lists' messes. Doesn't need to be cluttering main css */
+
+
+#nav-contents .navbar-nav li a{border-style:hidden !important;}
+li:hover a {background:#112241 !important; cursor:pointer;}
+ul li:hover ul li a {background: #112241 !important;}
+ul li:hover ul li {background: #112241 !important;}
+
+li a:hover{color:lawngreen;}
+
+
+ul li {
+    border-style:hidden;
+    background-color:#112241;
+    padding-left: 30px;
+    display: inline-block;
+    position:relative;
+}
+
+ul li ul {
+    margin-top:5px !important;
+    margin-left:-15px;
+    z-index:200;
+    position:absolute;
+    background:black;
+    width:130px;
+    padding-bottom:5px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul li ul a {
+    position:relative;
+    z-index:220;
+    margin-left: -55px;
+    color:white;
+
+  
+}
+
+ul li ul li {
+    background:#112241;
+    display:block;
+    color: #261906;
+    padding-top:5px;
+}
+
+ul li ul li:hover {
+    background-color:#112241
+}
+
+ul li:hover ul {
+    background:#112241;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+

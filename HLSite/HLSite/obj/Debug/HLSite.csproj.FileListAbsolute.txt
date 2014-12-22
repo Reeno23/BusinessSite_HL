@@ -50,3 +50,5 @@ C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\bin\Microsoft.Owin.Securit
 C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\obj\Debug\HLSite.csprojResolveAssemblyReference.cache
 C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\obj\Debug\HLSite.dll
 C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\obj\Debug\HLSite.pdb
+C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\obj\Debug\HLSite.csproj.GenerateResource.Cache
+C:\Users\ReenoNow\Desktop\CS Hub\HLSite\HLSite\HLSite\obj\Debug\HLSite.Properties.Resources.resources
