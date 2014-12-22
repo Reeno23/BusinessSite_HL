@@ -9,77 +9,37 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
-
-    <h3> Water Gardens</h3>
-<ul class="rig columns-4">
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-<li>
-<img src="Resources/orig3.JPG"/>
-</li>
-</ul>
-
-
-<div class="galRight">
-    <h3>Categories</h3>
-<ul class="rig columns-2" >
+<ul class="rig single">
 <li> 
-    <img src="Resources/crop2.jpg" />
-    <p>hi there</p>
+<a runat="server"  href="~/Gallery"><img src="Resources/crop1.jpg"> </a>
+<div class="mainGal-textbox">
+    Hardscaping
+</div>
 </li>
 <li>
-    <img src="Resources/crop3.jpg" /> 
-    <p>hi there</p>
+<a runat="server"  href="~/Gallery"><img src="Resources/orig3.JPG"/>  </a> 
+<div class="mainGal-textbox">
+    Water Gardens
+</div>
 </li>
 <li>
-    <img src="Resources/crop1.jpg" />
-    <p>hi there</p>
+<a runat="server"  href="~/Gallery"><img src="Resources/crop2.jpg"/>  </a> 
+<div class="mainGal-textbox">
+    Flowertime
+</div>
 </li>
 <li>
-    <img src="Resources/orig3.JPG" />
-    <p>hi there</p>
+<a runat="server"  href="~/Gallery"><img src="Resources/crop3.jpg"/>  </a> 
+<div class="mainGal-textbox">
+    Chet-time
+</div>
 </li>
 </ul>
+
 </div>
 </div>
-</div>
 
-
-
-
-
-<!-- Footer -->
+        <!-- Footer -->
 <div class ="footerWrapper">
     <img class="footerLogo" src="resources/logoFilled.png" />
 </div>
@@ -90,7 +50,4 @@
     humeslandscape@gmail.com</a> <br />
     Developer: Chris Hume
 </div>
-
-
-
 </asp:Content>

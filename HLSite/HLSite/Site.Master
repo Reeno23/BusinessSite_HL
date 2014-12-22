@@ -1,7 +1,7 @@
 ﻿<!--
 Author:  Chris Hume
 Company: Hume's Landscape Service 
-Thanks to: "CG" for the layout inspiration and overall HTML style influence for a complete beginner. Nicest coding style & technique out of any 100+ websites and designers examined.
+Thanks to: "CG" for the layout inspiration and overall HTML + css style influence for a complete beginner. Nicest coding style & technique out of any 50+ websites and designers examined.
 -->
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
 
@@ -17,6 +17,8 @@ Thanks to: "CG" for the layout inspiration and overall HTML style influence for 
     
     <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
+    <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />
+    
     <webopt:bundlereference runat="server" path="~/Content/css" />
 </head>
 
@@ -55,9 +57,8 @@ Thanks to: "CG" for the layout inspiration and overall HTML style influence for 
 <!-- Gallery dropdown -->
 <li><a runat="server" href="~/Gallery">Gallery</a>
 <ul>
-    <li><a runat="server"  href="~/About">Hardscapes</a></li>
-    <li><a runat="server"  href="~/About">Water Gardens</a></li>
-    <li><a runat="server"  href="~/About">Outdoor Lighting</a></li>
+    <li><a runat="server"  href="~/galHardscapes">Hardscapes</a></li>
+    <li><a runat="server"  href="~/galWatergardens">Water Gardens</a></li>
 </ul>
 </li>
 

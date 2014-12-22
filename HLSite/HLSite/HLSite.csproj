@@ -170,16 +170,20 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\ulMess.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="galHardscapes.aspx" />
     <Content Include="Gallery.aspx" />
+    <Content Include="galWatergardens.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Resources\1400_475.jpg" />
     <Content Include="Resources\2.JPG" />
     <Content Include="Resources\22.JPG" />
     <Content Include="Resources\21.JPG" />
+    <Content Include="Resources\940_390.jpg" />
     <Content Include="Resources\blueprint.jpg" />
     <Content Include="Resources\crop1.jpg" />
     <Content Include="Resources\crop2.jpg" />
@@ -192,14 +196,16 @@
     <Content Include="Resources\words2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\fancybox\jquery.fancybox.css" />
+    <Content Include="Scripts\fancybox\jquery.fancybox.pack.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\jquery-1.11.2.min.js" />
     <Content Include="Scripts\WebForms\Menu.js" />
     <Content Include="Scripts\WebForms\MenuStandards.js" />
     <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
@@ -376,12 +382,26 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="galHardscapes.aspx.cs">
+      <DependentUpon>galHardscapes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galHardscapes.aspx.designer.cs">
+      <DependentUpon>galHardscapes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gallery.aspx.designer.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galWatergardens.aspx.cs">
+      <DependentUpon>galWatergardens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galWatergardens.aspx.designer.cs">
+      <DependentUpon>galWatergardens.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -418,6 +438,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Resources\medium\" />
+    <Folder Include="Resources\NewFolder1\" />
+    <Folder Include="Resources\tiny\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
