@@ -71,9 +71,10 @@
 <div class ="footer-content">
     &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service  <br />
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    Facebook | </a> <a href="mailto:humeslandscape@gmail.com">
+    Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
-    Developer: Chris Hume
+    Wellsboro, Pennsylvania <br />
+    By: Chris Hume
 </div>
 
 </asp:Content>

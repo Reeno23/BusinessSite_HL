@@ -1,6 +1,5 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="HLSite.About" %>
-
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="servLighting.aspx.cs" Inherits="HLSite.servLighting" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
     <img src="Resources/crop3.jpg" />
@@ -30,5 +29,4 @@
     humeslandscape@gmail.com</a> <br />
     Developer: Chris Hume
 </div>
-
 </asp:Content>

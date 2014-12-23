@@ -18,8 +18,8 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
     <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
     <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />
-    
     <webopt:bundlereference runat="server" path="~/Content/css" />
+
 </head>
 
 <body >
@@ -44,11 +44,11 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <li><a runat="server"  href="~/">Home</a></li>
 
 <!-- Services dropdown -->
-<li><a runat="server" href="~/About">Services</a>
+<li><a runat="server" href="~/Services">Services</a>
 <ul>
-    <li><a runat="server"  href="~/About">Hardscapes</a></li>
-    <li><a runat="server"  href="~/About">Water Gardens</a></li>
-    <li><a runat="server"  href="~/About">Outdoor Lighting</a></li>
+    <li><a runat="server"  href="~/servHardscapes">Hardscapes</a></li>
+    <li><a runat="server"  href="~/servWatergardens">Water Gardens</a></li>
+    <li><a runat="server"  href="~/servLighting">Outdoor Lighting</a></li>
 </ul>
 </li>
 
@@ -62,7 +62,7 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 </ul>
 </li>
 
-<li><a runat="server" href="~/Blog">Contact</a></li>                  
+<li><a runat="server" href="~/Contact">Contact</a></li>                  
 </ul>
 </div>
 

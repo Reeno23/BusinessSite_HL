@@ -173,6 +173,12 @@
     <Content Include="galHardscapes.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="galWatergardens.aspx" />
+    <Content Include="helpers\fancybox_buttons.png" />
+    <Content Include="helpers\jquery.fancybox-buttons.css" />
+    <Content Include="helpers\jquery.fancybox-buttons.js" />
+    <Content Include="helpers\jquery.fancybox-media.js" />
+    <Content Include="helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="helpers\jquery.fancybox-thumbs.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -196,6 +202,12 @@
     <Content Include="Resources\words2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\fancybox\blank.gif" />
+    <Content Include="Scripts\fancybox\extraFancy.js" />
+    <Content Include="Scripts\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="Scripts\fancybox\fancybox_loading.gif" />
+    <Content Include="Scripts\fancybox\fancybox_overlay.png" />
+    <Content Include="Scripts\fancybox\fancybox_sprite.png" />
     <Content Include="Scripts\fancybox\jquery.fancybox.css" />
     <Content Include="Scripts\fancybox\jquery.fancybox.pack.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -228,6 +240,10 @@
     <Content Include="Default.aspx" />
     <Content Include="Resources\favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="servHardscapes.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="servLighting.aspx" />
+    <Content Include="servWatergardens.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -412,6 +428,34 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="servHardscapes.aspx.cs">
+      <DependentUpon>servHardscapes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servHardscapes.aspx.designer.cs">
+      <DependentUpon>servHardscapes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servLighting.aspx.cs">
+      <DependentUpon>servLighting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servLighting.aspx.designer.cs">
+      <DependentUpon>servLighting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servWatergardens.aspx.cs">
+      <DependentUpon>servWatergardens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servWatergardens.aspx.designer.cs">
+      <DependentUpon>servWatergardens.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

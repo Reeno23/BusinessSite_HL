@@ -97,12 +97,5 @@
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="Scripts/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".fancybox").fancybox({
-            padding: 0,
-            arrows: true
-        });
-    });
-    </script>
+<script type="text/javascript" src="Scripts/fancybox/extraFancy.js"></script>
 </asp:Content>
