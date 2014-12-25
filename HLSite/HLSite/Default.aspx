@@ -22,13 +22,8 @@
     <h3>About Us</h3>
     <img src="Resources/22.JPG" />
     <p>
-    xxxxxxxxxxxxxxxxxxxxxxxxxx  
-    xxxxxxxxxxxxxxxxxxxxxxxxxxx Hehe. 
-    haha hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha  
-    Hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha hehe 
+    Hume's Landscape Service is a family owned and operated business, 
+    serving Tioga County, PA for over 30 years.  We're proud to put our name on every job we do.
     </p>
 </div>
     <!-- Row section two -->
@@ -36,13 +31,7 @@
     <h3>Services we offer</h3>
     <img src="Resources/21.JPG" />
     <p>
-    Use frog pic, 
-    xxxxxxxxxxxxxxxxxxx 
-    haha hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha  
-    Hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha  
-    Hehe haha hehe haha hehe haha hehe 
+    From custom landscape design to water gardens and hardscapes, we offer a full line of services to enhance the beauty of your outdoor spaces.
     </p>
 </div>
     <!-- Row section three -->
@@ -50,13 +39,7 @@
     <h3> Estimates & Designs</h3>
     <img src="Resources/blueprint.jpg" />
     <p>
-    Use blueprint pic, 
-    xxxxxxxxxxxxxxxxx 
-    haha hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha  
-    Hehe haha hehe haha hehe haha 
-    Hehe haha hehe haha hehe haha  
-    Hehe haha hehe haha hehe haha hehe 
+   No two jobs are the same. Email us today to schedule an appointment to review your desired landscape projects.
     </p>
 </div> 
 </div>

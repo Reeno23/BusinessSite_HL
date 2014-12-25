@@ -3,28 +3,35 @@
 /* Miscellaneous */
 @viewport{ width:1024px; }
 body{ font-size:14px;background-color:#5B4926;}
-#top-line { width:100%; height: 20px;background-color: #0A3C19;}
-#nav-bg { width:100%; background-color:#112241; position:relative}
+#top-line { width:100%; height: 20px;background-color: #0C0802;}
+#nav-bg { width:100%; background-color:#141E35; position:relative}
 .row { margin: 0 auto;}
 textarea{resize:none;}
 .col-md-2 { color: #112E44; font-family: Cooper; float:left;}
-.col-md-4 { color: #112E44; font-family: Cooper; float:left;}
-.col-md-4 p { display:block; width:270px; }
+.col-md-4 {  color:#EBEADE;font-family: Cooper; float:left;}
+    .col-md-4 p {
+        display: block;
+        width: 280px;
+        font-size: 22px;
+        font-weight: bold;
+        font-style:italic;
+        font-family: 'Iskoola Pota';
+    }
 .col-md-4 img { width:280px; height:175px; padding-bottom:10px;}
-h3 {color:#150803; font-family:Cooper;}
+h3 {color:#DCC19E; font-family:'Copperplate Gothic'; font-weight:bold; font-size:25px;}
 
  
 /* Navbar */
 #header { min-height:110px; margin:0 auto; width:982px;}
 #nav-leftpic img { float:left; margin: 5px 0px 0px 30px; width:200px; height:100px;}
-#nav-contents { margin: 0 auto;color:black;width:600px; font-family:Rockwell;}
+#nav-contents { margin: 0 auto;color:black;width:600px; font-family:'Copperplate Gothic';}
 #nav-contents ul { /* Contains margin-left of 60px. */margin-top: 60px;}
-#nav-righttext-1 { font-style:italic;margin-left:735px;margin-top:30px;position:absolute;font-size:10px;}
-#nav-righttext-2 { font-style:italic; margin-left:735px;margin-top:60px;position:absolute;font-size:10px;}
-#nav-rightpic img { float:right; margin-top:20px;margin-right: 120px;width:25px;height:25px;}
+#nav-righttext-1 { font-style:italic;margin-left:765px;margin-top:30px;position:absolute;font-size:10px;}
+#nav-righttext-2 { font-style:italic; margin-left:765px;margin-top:60px;position:absolute;font-size:10px;}
+#nav-rightpic img { float:right; margin-top:20px;margin-right: 90px;width:25px;height:25px;}
 
 /* Separator between header & pic */
-.topline-two { background-color:#063213; height:8px; width:100%;}
+.topline-two { background-color:#0C0802; height:8px; width:100%;}
 
 /* Top animated image details*/
 .cf-container { position:relative;background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
@@ -33,17 +40,20 @@ h3 {color:#150803; font-family:Cooper;}
 .topimg-container { position:relative; background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
 
 /* Body stuff */
-.bodyWrapper { background-color:#5B4926;  width:100%; }
+.bodyWrapper { background-color:#0C0802;  width:100%; }
 .body-content { margin:0 auto;width:982px; padding-left:10px; padding-bottom:30px; }
 
 /* Footer stuff */
-.footerWrapper { background-color:#063213; width:100%; min-height:100px; position:relative}
+.footerWrapper { background-color:#141E35; width:100%; min-height:100px; position:relative}
 .footerLogo { height:95px; width:95px;display:block; margin:auto auto;padding-top:5px;}
-.footer-content { background-color:#063213;color:#308497;text-align:center;font-size:11px;}
+.footer-content { background-color:#141E35;color:#308497;text-align:center;font-size:11px;}
 .footer-content a {color:#75C8CD;}
 
 /* Services stuff */
-
+.servMainText{position:relative; padding-top:15px; display:block; width:90%; font-size:20px; color: #DCC19E;}
+.servBigText{position:relative; padding-top:15px; color: red; font-size:28px; color:firebrick}
+.servBullets{position: relative;font-size: 18px; padding-top:15px;}
+.servBullets li {background: none;display:list-item;}
 
 /* About us stuff */
 
@@ -81,6 +91,7 @@ ul.rig li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
+     
 }
 ul.rig li img {
 	max-width: 100%;
@@ -192,7 +203,7 @@ ul.rig.columns-8 li {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+   transition: opacity 1s ease-in-out;
 }
 
 @-webkit-keyframes cfFadeInOut {
@@ -212,45 +223,104 @@ ul.rig.columns-8 li {
     opacity:1;
   }
 }
+@-moz-keyframes cfFadeInOutM {
+  0% {
+    opacity:1;
+  }
+  15% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes cfFadeInOutI {
+  0% {
+    opacity:1;
+  }
+  15% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes cfFadeInOutO {
+  0% {
+    opacity:1;
+  }
+  15% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
 
 #cf img.fade {
+    animation-name: cfFadeInOutI;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
    -webkit-animation-name: cfFadeInOut;
    -webkit-animation-timing-function:ease-in-out;
    -webkit-animation-duration: 20s;           /* t=(a+b)*n where a = image screentime, b is cross fade time, n #pics         3s per pic, 2s cross fade for testing,  20=(3+2)*4 */
    -webkit-animation-direction:normal;
    -webkit-animation-iteration-count: infinite; 
-   -moz-animation-name: cfFadeInOut;
+   -moz-animation-name: cfFadeInOutM;
    -moz-animation-timing-function:ease-in-out;
    -moz-animation-duration: 20s;          
    -moz-animation-direction:normal;
    -moz-animation-iteration-count: infinite; 
-   -o-animation-name: cfFadeInOut;
+   -o-animation-name: cfFadeInOutO;
    -o-animation-timing-function:ease-in-out;
    -o-animation-duration: 20s;          
    -o-animation-direction:normal;
    -o-animation-iteration-count: infinite; 
-   
 }
 
 #cf img:nth-of-type(1) {
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay: 0s;                /* t/n or a+b */
+   animation-delay: 0s;
 }
 #cf img:nth-of-type(2) {
   -webkit-animation-delay: -5s;
   -moz-animation-delay: -5s;
   -o-animation-delay: -5s;
+   animation-delay: -5s;
 }
 #cf img:nth-of-type(3) {
   -webkit-animation-delay: -10s;
   -moz-animation-delay: -10s;
   -o-animation-delay: -10s;
+   animation-delay: -10s;
 }
 #cf img:nth-of-type(4) {
   -webkit-animation-delay: -15s;
   -moz-animation-delay: -15s;
   -o-animation-delay: -15s;
+   animation-delay: -15s;
 }
 
 /* Fancybox css */

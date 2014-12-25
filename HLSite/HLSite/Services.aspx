@@ -8,15 +8,38 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
+<div class="servMainText" >
+    Are you interested in landscape design? Hardscape design and installation? 
+    Maybe garden ponds, waterfalls, or various maintenance services? Whichever it is, we can help in
+    making your desired outdoor vision a reality. 
+    We're dedicated to designing and building quality custom landscapes that fit within your unique 
+    taste and budget. Hume's Landscape Service has been family owned and operated since 1978, and we're 
+    proud to put our name on every job we do.
+</div>
 
+<div class="servBigText">
+    Services we offer:
+</div>
 
+<div class="servBullets">
+<ul>
+    <li>Creative landscape design and installation</li>
 
+    <li>Paver walkways, patios, and driveways</li>
 
+    <li>Natural and architectural retaining walls</li>
 
+    <li>Garden ponds, fountains, and waterfalls </li>
 
+    <li>Low voltage landscape lighting</li>
+
+    <li>Property maintenance </li>
+
+    <li>Edging and mulching</li>
+</ul>
 </div>
 </div>
-
+</div>
 
     <!-- Footer -->
 <div class ="footerWrapper">
