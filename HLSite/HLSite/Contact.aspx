@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contact Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="HLSite.Contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="HLSite.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -9,23 +9,23 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
-<div class="contTopleft">
+
+
+<div class="contLeftWrap">
+<div class="contTopLeft">
+    <p>For design inquiries, pricing quotes, questions, or concerns,
+    please feel free to fill out the form to the right or email us below.
+    Expect a response within 48 hours. <br />
+    Thanks for visiting us, and have a great day. </p>
+</div>
+</div>
+    <div class="contBtmleft">
     Hume's Landscape Service<br />
-    Wellsboro, Pennsylvania<br />
+    Wellsboro, Pennsylvania 16901<br />
     <a href="mailto:humeslandscape@gmail.com">
     humeslandscape@gmail.com</a> |
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
     Facebook </a>
-</div>
-
-<div class="contLeftWrap">
-<div class="contLeft">
-    For design inquiries, pricing quotes, questions, or concerns,
-    please feel free to fill out the form to the right or email us at
-    the email above.
-    Expect a response within 48 hours. <br />
-    Thanks for visiting us, and have a great day.
-</div>
 </div>
 
 <table class="tableSpecs"> 
@@ -92,16 +92,16 @@
 </div>
 </div>
 
-    <!-- Footer -->
+<!-- Footer -->
 <div class ="footerWrapper">
-    <img class="footerLogo" src="resources/logoFilled.png" />
+    <img class="footerLogo" src="resources/tiny/ftrlogo.png" />
 </div>
 <div class ="footer-content">
-    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service  <br />
+    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. All Rights Reserved.  <br />
+    Wellsboro, Pennsylvania 16901 <br />
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    Facebook | </a> <a href="mailto:humeslandscape@gmail.com">
+    Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
-    Developer: Chris Hume
-
 </div>
+
 </asp:Content>

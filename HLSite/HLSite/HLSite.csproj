@@ -163,7 +163,6 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -171,7 +170,9 @@
     <Content Include="Content\ulMess.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="galHardscapes.aspx" />
+    <Content Include="galDesign.aspx" />
     <Content Include="Gallery.aspx" />
+    <Content Include="galMisc.aspx" />
     <Content Include="galWatergardens.aspx" />
     <Content Include="helpers\fancybox_buttons.png" />
     <Content Include="helpers\jquery.fancybox-buttons.css" />
@@ -190,16 +191,20 @@
     <Content Include="Resources\22.JPG" />
     <Content Include="Resources\21.JPG" />
     <Content Include="Resources\940_390.jpg" />
-    <Content Include="Resources\blueprint.jpg" />
+    <Content Include="Resources\med\blueprint.jpg" />
     <Content Include="Resources\crop1.jpg" />
     <Content Include="Resources\crop2.jpg" />
     <Content Include="Resources\crop3.jpg" />
-    <Content Include="Resources\facebook.png" />
-    <Content Include="Resources\images4.png" />
-    <Content Include="Resources\logoFilled.png" />
+    <Content Include="Resources\med\elmaflower.jpg" />
+    <Content Include="Resources\med\stacySide.jpg" />
+    <Content Include="Resources\tiny\facebook.png" />
+    <Content Include="Resources\janLeft.jpg" />
+    <Content Include="Resources\lindaDrive.jpg" />
+    <Content Include="Resources\lindaWalk.jpg" />
     <Content Include="Resources\orig3.JPG" />
-    <Content Include="Resources\topbg.jpg" />
-    <Content Include="Resources\words2.png" />
+    <Content Include="Resources\tiny\favicon.ico" />
+    <Content Include="Resources\med\truckSmall.jpg" />
+    <Content Include="Resources\med\words2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\fancybox\blank.gif" />
@@ -238,8 +243,8 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Default.aspx" />
-    <Content Include="Resources\favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="servDesign.aspx" />
     <Content Include="servHardscapes.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="servLighting.aspx" />
@@ -377,13 +382,6 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Blog.aspx.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Blog.aspx.designer.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -405,12 +403,26 @@
     <Compile Include="galHardscapes.aspx.designer.cs">
       <DependentUpon>galHardscapes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="galDesign.aspx.cs">
+      <DependentUpon>galDesign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galDesign.aspx.designer.cs">
+      <DependentUpon>galDesign.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gallery.aspx.designer.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galMisc.aspx.cs">
+      <DependentUpon>galMisc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galMisc.aspx.designer.cs">
+      <DependentUpon>galMisc.aspx</DependentUpon>
     </Compile>
     <Compile Include="galWatergardens.aspx.cs">
       <DependentUpon>galWatergardens.aspx</DependentUpon>
@@ -428,6 +440,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="servDesign.aspx.cs">
+      <DependentUpon>servDesign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servDesign.aspx.designer.cs">
+      <DependentUpon>servDesign.aspx</DependentUpon>
     </Compile>
     <Compile Include="servHardscapes.aspx.cs">
       <DependentUpon>servHardscapes.aspx</DependentUpon>
@@ -482,9 +501,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Resources\medium\" />
-    <Folder Include="Resources\NewFolder1\" />
-    <Folder Include="Resources\tiny\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

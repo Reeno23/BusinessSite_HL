@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galHardscapes.aspx.cs" Inherits="HLSite.galHardscapes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galDesign.aspx.cs" Inherits="HLSite.galDesign" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<div class="topimg-container">
+    <div class="topimg-container">
     <img src="Resources/crop3.jpg" />
 </div>
 
@@ -10,7 +10,7 @@
 <div class="body-content">
 
 <!-- Gallery main section -->
-    <h3>Hardscapes</h3>
+    <h3>Landscape Design</h3>
 <ul class="rig columns-4">
 <li>
 <a class="fancybox" rel="group" href="Resources/crop1.jpg"><img src="Resources/crop1.jpg"/>  </a>   

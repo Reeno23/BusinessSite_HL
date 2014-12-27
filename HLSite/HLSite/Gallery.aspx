@@ -39,15 +39,16 @@
 </div>
 </div>
 
-        <!-- Footer -->
+<!-- Footer -->
 <div class ="footerWrapper">
-    <img class="footerLogo" src="resources/logoFilled.png" />
+    <img class="footerLogo" src="resources/tiny/ftrlogo.png" />
 </div>
 <div class ="footer-content">
-    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service  <br />
+    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. All Rights Reserved.  <br />
+    Wellsboro, Pennsylvania 16901 <br />
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    Facebook | </a> <a href="mailto:humeslandscape@gmail.com">
+    Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
-    Developer: Chris Hume
 </div>
+
 </asp:Content>

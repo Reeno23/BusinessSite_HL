@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galWatergardens.aspx.cs" Inherits="HLSite.galWatergardens" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
@@ -9,7 +10,7 @@
 <div class="body-content">
 
 <!-- Gallery main section -->
-    <h3> Water Gardens</h3>
+    <h3>Water Gardens</h3>
 <ul class="rig columns-4">
 <li>
 <a class="fancybox" rel="group" href="Resources/crop1.jpg"><img src="Resources/crop1.jpg"/>  </a>   
@@ -87,11 +88,11 @@
     <img class="footerLogo" src="resources/logoFilled.png" />
 </div>
 <div class ="footer-content">
-    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service  <br />
+    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. All Rights Reserved.  <br />
+    Wellsboro, Pennsylvania 16901 <br />
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    Facebook | </a> <a href="mailto:humeslandscape@gmail.com">
+    Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
-    Developer: Chris Hume
 </div>
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

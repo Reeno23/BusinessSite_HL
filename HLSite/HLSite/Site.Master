@@ -10,16 +10,17 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> | Hume's Landscape Service</title>
+    <title>Hume's Landscape Service</title>
     <meta name="viewport" />
     <meta name="keywords" content="Pennsylvania, Wellsboro, Hume, landscaping, landscape, patio, ponds, waterfalls" />
     <meta name="author" content="Chris Hume" />
     
-    <link rel="shortcut icon" href="~/Resources/favicon.ico"  type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Resources/tiny/favicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
     <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
-
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    
 </head>
 
 <body >
@@ -35,7 +36,7 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <!-- Left section -->
 <div id="nav-leftpic">
     <a href="Default">
-    <img src="Resources/words2.png" /> </a>
+    <img src="Resources/med/words2.png" /> </a>
 </div>
 
 <!-- Center section -->
@@ -49,6 +50,7 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
     <li><a runat="server"  href="~/servHardscapes">Hardscapes</a></li>
     <li><a runat="server"  href="~/servWatergardens">Water Gardens</a></li>
     <li><a runat="server"  href="~/servLighting">Outdoor Lighting</a></li>
+    <li><a runat="server"  href="~/servDesign">Landscape Design</a></li>
 </ul>
 </li>
 
@@ -59,6 +61,8 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <ul>
     <li><a runat="server"  href="~/galHardscapes">Hardscapes</a></li>
     <li><a runat="server"  href="~/galWatergardens">Water Gardens</a></li>
+    <li><a runat="server" href="~/galDesign">Landscape Design</a></li>
+    <li><a runat="server" href="~/galMisc">Miscellaneous</a></li>
 </ul>
 </li>
 
@@ -77,7 +81,7 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 </div>
 <div id="nav-rightpic">
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    <img src="Resources/facebook.png" /> </a>
+    <img src="Resources/tiny/facebook.png" /> </a>
 </div>
 </div>
 </div>

@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="HLSite.Services" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
@@ -9,10 +10,10 @@
 <div class="body-content">
 
 <div class="servMainText" >
-    Are you interested in landscape design? Hardscape design and installation? 
+    Are you considering landscape design? Hardscape design and installation? 
     Maybe garden ponds, waterfalls, or various maintenance services? Whichever it is, we can help in
     making your desired outdoor vision a reality. 
-    We're dedicated to designing and building quality custom landscapes that fit within your unique 
+    We're dedicated to designing and building quality custom landscapes that fit your unique 
     taste and budget. Hume's Landscape Service has been family owned and operated since 1978, and we're 
     proud to put our name on every job we do.
 </div>
@@ -38,20 +39,25 @@
     <li>Edging and mulching</li>
 </ul>
 </div>
+
+<div class ="servPic">
+    <img src="Resources/med/elmaflower.jpg" />
+</div>
+
+
 </div>
 </div>
 
-    <!-- Footer -->
+<!-- Footer -->
 <div class ="footerWrapper">
-    <img class="footerLogo" src="resources/logoFilled.png" />
+    <img class="footerLogo" src="resources/tiny/ftrlogo.png" />
 </div>
 <div class ="footer-content">
-    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service  <br />
+    &copy; <%: DateTime.Now.Year %> - Property of Hume's Landscape Service. All Rights Reserved.  <br />
+    Wellsboro, Pennsylvania 16901 <br />
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
-    Facebook | </a> <a href="mailto:humeslandscape@gmail.com">
+    Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
-    Developer: Chris Hume
 </div>
-
 
 </asp:Content>

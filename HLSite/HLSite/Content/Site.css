@@ -1,34 +1,32 @@
 ﻿/* Author: Chris Hume */
+/* Google fonts to try: open sans, josefin slab, arvo, lato, vollkorn, abril fatface, ubuntu, ptsans+pt serif, old standard tt, droid sans,    */
+
+
+@font-face{font-family: fontH; src:url()}
+
 
 /* Miscellaneous */
 @viewport{ width:1024px; }
-body{ font-size:14px;background-color:#5B4926;}
+body{ font-size:14px;background-color:#0B101D;}
 #top-line { width:100%; height: 20px;background-color: #0C0802;}
-#nav-bg { width:100%; background-color:#141E35; position:relative}
-.row { margin: 0 auto;}
+#nav-bg { width:100%; background-color:#0B101D; position:relative}
+.row { margin:0auto;}
 textarea{resize:none;}
-.col-md-2 { color: #112E44; font-family: Cooper; float:left;}
-.col-md-4 {  color:#EBEADE;font-family: Cooper; float:left;}
-    .col-md-4 p {
-        display: block;
-        width: 280px;
-        font-size: 22px;
-        font-weight: bold;
-        font-style:italic;
-        font-family: 'Iskoola Pota';
-    }
+.col-md-2 { font-family:Cooper; float:left;}
+.col-md-4 { color:#A0A0A0;font-family: Cooper; float:left;}
+.col-md-4 p { display: block;width: 280px;font-size: 16px;font-family: 'Arvo', serif;}
 .col-md-4 img { width:280px; height:175px; padding-bottom:10px;}
-h3 {color:#DCC19E; font-family:'Copperplate Gothic'; font-weight:bold; font-size:25px;}
+h3 { color:#9A8C7D; font-family: 'Arvo', serif; font-size:23px;}
 
  
 /* Navbar */
 #header { min-height:110px; margin:0 auto; width:982px;}
 #nav-leftpic img { float:left; margin: 5px 0px 0px 30px; width:200px; height:100px;}
-#nav-contents { margin: 0 auto;color:black;width:600px; font-family:'Copperplate Gothic';}
+#nav-contents { margin: 0 auto;color:black;width:600px; font-size:14px; font-family:'Arvo', serif;}
 #nav-contents ul { /* Contains margin-left of 60px. */margin-top: 60px;}
-#nav-righttext-1 { font-style:italic;margin-left:765px;margin-top:30px;position:absolute;font-size:10px;}
-#nav-righttext-2 { font-style:italic; margin-left:765px;margin-top:60px;position:absolute;font-size:10px;}
-#nav-rightpic img { float:right; margin-top:20px;margin-right: 90px;width:25px;height:25px;}
+#nav-righttext-1 { font-style:italic;margin-left:765px;margin-top:30px;position:absolute;font-size:12px;}
+#nav-righttext-2 { font-style:italic; margin-left:765px;margin-top:60px;position:absolute;font-size:12px;}
+#nav-rightpic img { float:right; margin-top:20px;margin-right:80px;width:25px;height:25px;}
 
 /* Separator between header & pic */
 .topline-two { background-color:#0C0802; height:8px; width:100%;}
@@ -40,20 +38,22 @@ h3 {color:#DCC19E; font-family:'Copperplate Gothic'; font-weight:bold; font-size
 .topimg-container { position:relative; background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
 
 /* Body stuff */
-.bodyWrapper { background-color:#0C0802;  width:100%; }
+.bodyWrapper { background-color:#0C0802;width:100%; }
 .body-content { margin:0 auto;width:982px; padding-left:10px; padding-bottom:30px; }
 
 /* Footer stuff */
-.footerWrapper { background-color:#141E35; width:100%; min-height:100px; position:relative}
-.footerLogo { height:95px; width:95px;display:block; margin:auto auto;padding-top:5px;}
-.footer-content { background-color:#141E35;color:#308497;text-align:center;font-size:11px;}
+.footerWrapper { background-color:#0B101D; width:100%; min-height:100px; position:relative}
+.footerLogo {width:95px;display:block; margin:auto auto;padding-top:35px;}
+.footer-content { background-color:#0B101D;color:#308497;text-align:center;font-size:11px;}
 .footer-content a {color:#75C8CD;}
 
 /* Services stuff */
-.servMainText{position:relative; padding-top:15px; display:block; width:90%; font-size:20px; color: #DCC19E;}
-.servBigText{position:relative; padding-top:15px; color: red; font-size:28px; color:firebrick}
-.servBullets{position: relative;font-size: 18px; padding-top:15px;}
+.servMainText{position:relative; padding-top:15px; display:block; width:80%; font-size:18px; margin:0 auto; color:#A0A0A0}
+.servBigText{position:relative; padding-top:15px; color:#9A8C7D; font-size:26px; margin-left:20px;}
+.servBullets{position: relative;font-size: 18px; padding-top:15px;color:#008000; margin-left:20px;}
 .servBullets li {background: none;display:list-item;}
+.servBullets ul{list-style-type:circle; height:210px;}
+.servPic img{float:right; width:150px; height:250px; margin-right:230px; margin-top:-250px;}
 
 /* About us stuff */
 
@@ -61,15 +61,17 @@ h3 {color:#DCC19E; font-family:'Copperplate Gothic'; font-weight:bold; font-size
 /* Gallery stuff */
 .galRight {float:right; margin-top:-410px; margin-left:-500px; text-align:center;}
 .galRight h3 {margin-left:28px}
-.galRight-textbox {height:15%; width:100%; border-style:solid; border-color:#063213; font-size:16px; margin-top:-10px; position:relative }
+.galRight-textbox {height:15%; width:100%; border-style:solid; color:black; border-color:#063213; font-size:16px; margin-top:-10px; position:relative }
 .mainGal-textbox{height:15%; width:100%; border-style:solid; border-color:#063213; font-size:20px;  margin-top:-10px;}
 
 /* Contact stuff */
-.tableSpecs{width:350px; background:#5B4926; color: black; margin-top:-350px; text-align:left; float:right; margin-right:60px;}
+.tableSpecs{width:350px; background:#0C0802; color:#008080; margin-top:-335px; text-align:left; float:right; margin-right:60px;}
 td {padding-left:6px; padding-top:15px;}
-.contTopleft{font-size:20px; color:black; margin-top:15px;}
-.contTopleft a{font-size:18px; color:#063213}
-.contLeftWrap{display:block; position:relative; width:330px; height:250px; color:gainsboro; margin-top:15px; font-size:18px; }
+.contTopLeft p{padding-top:20px; margin-left:15px;}
+.contBtmleft{font-size:20px; color:#9A8C7D; margin-top:15px; margin-left:15px;}
+.contBtmleft a{font-size:18px; color:#008000}
+.contLeftWrap{display:block; position:relative; width:330px; height:250px; color:#A0A0A0;  font-size:18px; }
+
 
 /* Gallery Picture Grid */
 ul.rig {
@@ -112,6 +114,8 @@ ul.rig.single{
     position:relative;
     width:960px;
     height:200px;
+    color:black;
+    
 }
 ul.rig.single li{
     margin-top:12px;
