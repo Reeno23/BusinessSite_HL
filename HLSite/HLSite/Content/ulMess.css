@@ -23,7 +23,7 @@ ul li ul {
     z-index:200;
     position:absolute;
     background:black;
-    width:150px;
+    width:180px;
     padding-bottom:5px;
     display: none;
     opacity: 0;

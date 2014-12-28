@@ -169,8 +169,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\ulMess.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="galHardscapes.aspx" />
     <Content Include="galDesign.aspx" />
+    <Content Include="galHardscapes.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="galMisc.aspx" />
     <Content Include="galWatergardens.aspx" />
@@ -186,25 +186,62 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Resources\1400_475.jpg" />
-    <Content Include="Resources\2.JPG" />
-    <Content Include="Resources\22.JPG" />
-    <Content Include="Resources\21.JPG" />
-    <Content Include="Resources\940_390.jpg" />
-    <Content Include="Resources\med\blueprint.jpg" />
-    <Content Include="Resources\crop1.jpg" />
-    <Content Include="Resources\crop2.jpg" />
-    <Content Include="Resources\crop3.jpg" />
+    <Content Include="Resources\gallery\hs\hs1.jpg" />
+    <Content Include="Resources\gallery\hs\hs10.jpg" />
+    <Content Include="Resources\gallery\hs\hs11.jpg" />
+    <Content Include="Resources\gallery\hs\hs12.jpg" />
+    <Content Include="Resources\gallery\hs\hs2.JPG" />
+    <Content Include="Resources\gallery\hs\hs3.jpg" />
+    <Content Include="Resources\gallery\hs\hs4.JPG" />
+    <Content Include="Resources\gallery\hs\hs5.jpg" />
+    <Content Include="Resources\gallery\hs\hs6.JPG" />
+    <Content Include="Resources\gallery\hs\hs7.JPG" />
+    <Content Include="Resources\gallery\hs\hs8.jpg" />
+    <Content Include="Resources\gallery\hs\hs9.JPG" />
+    <Content Include="Resources\gallery\wg\oldhalls1.jpg" />
+    <Content Include="Resources\gallery\wg\pond2.jpg" />
+    <Content Include="Resources\headers\abouttop.jpg" />
+    <Content Include="Resources\headers\badlightingtop.jpg" />
+    <Content Include="Resources\headers\contacttop.jpg" />
+    <Content Include="Resources\headers\elma.jpg" />
+    <Content Include="Resources\headers\gallerytop.jpg" />
+    <Content Include="Resources\headers\hardscapetop.jpg" />
+    <Content Include="Resources\headers\linda4.jpg" />
+    <Content Include="Resources\headers\lindaMain2.jpg" />
+    <Content Include="Resources\headers\lMain3.jpg" />
+    <Content Include="Resources\headers\servdesigntop.jpg" />
+    <Content Include="Resources\headers\stacymain.jpg" />
+    <Content Include="Resources\headers\stacymain2.jpg" />
+    <Content Include="Resources\med\blueprintnew.jpg" />
     <Content Include="Resources\med\elmaflower.jpg" />
-    <Content Include="Resources\med\stacySide.jpg" />
+    <Content Include="Resources\med\mainfour\elma.jpg" />
+    <Content Include="Resources\med\mainfour\lindaMain2.jpg" />
+    <Content Include="Resources\med\mainfour\servdesigntop.jpg" />
+    <Content Include="Resources\med\mainfour\waterg.jpg" />
+    <Content Include="Resources\med\restaurant.jpg" />
+    <Content Include="Resources\med\truck4.jpg" />
     <Content Include="Resources\tiny\facebook.png" />
-    <Content Include="Resources\janLeft.jpg" />
-    <Content Include="Resources\lindaDrive.jpg" />
-    <Content Include="Resources\lindaWalk.jpg" />
-    <Content Include="Resources\orig3.JPG" />
-    <Content Include="Resources\tiny\favicon.ico" />
-    <Content Include="Resources\med\truckSmall.jpg" />
     <Content Include="Resources\med\words2.png" />
+    <Content Include="Resources\tiny\ftrlogo.png" />
+    <Content Include="Resources\tiny\hs\hs1.jpg" />
+    <Content Include="Resources\tiny\hs\hs10.jpg" />
+    <Content Include="Resources\tiny\hs\hs11.jpg" />
+    <Content Include="Resources\tiny\hs\hs12.jpg" />
+    <Content Include="Resources\tiny\hs\hs2.JPG" />
+    <Content Include="Resources\tiny\hs\hs3.jpg" />
+    <Content Include="Resources\tiny\hs\hs4.JPG" />
+    <Content Include="Resources\tiny\hs\hs5.jpg" />
+    <Content Include="Resources\tiny\hs\hs6.JPG" />
+    <Content Include="Resources\tiny\hs\hs7.JPG" />
+    <Content Include="Resources\tiny\hs\hs8.jpg" />
+    <Content Include="Resources\tiny\hs\hs9.JPG" />
+    <Content Include="Resources\tiny\mainfour\elma.jpg" />
+    <Content Include="Resources\tiny\mainfour\lindaMain2.jpg" />
+    <Content Include="Resources\tiny\mainfour\servdesigntop.jpg" />
+    <Content Include="Resources\tiny\mainfour\waterg.jpg" />
+    <Content Include="Resources\tiny\treefavicon.ico" />
+    <Content Include="Resources\headers\waterg.jpg" />
+    <Content Include="Resources\headers\watergtop.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\fancybox\blank.gif" />
@@ -396,19 +433,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="galHardscapes.aspx.cs">
-      <DependentUpon>galHardscapes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="galHardscapes.aspx.designer.cs">
-      <DependentUpon>galHardscapes.aspx</DependentUpon>
-    </Compile>
     <Compile Include="galDesign.aspx.cs">
       <DependentUpon>galDesign.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="galDesign.aspx.designer.cs">
       <DependentUpon>galDesign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galHardscapes.aspx.cs">
+      <DependentUpon>galHardscapes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galHardscapes.aspx.designer.cs">
+      <DependentUpon>galHardscapes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
@@ -501,6 +538,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Resources\gallery\ld\" />
+    <Folder Include="Resources\gallery\misc\" />
+    <Folder Include="Resources\tiny\ld\" />
+    <Folder Include="Resources\tiny\misc\" />
+    <Folder Include="Resources\tiny\wg\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

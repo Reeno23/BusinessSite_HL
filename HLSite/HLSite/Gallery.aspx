@@ -3,35 +3,38 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
-    <img src="Resources/crop3.jpg" />
+    <img src="Resources/headers/lMain3.jpg" />
 </div>
 
 <div class="bodyWrapper">
 <div class="body-content">
 
+<div class="galMainText">
+    Our galleries
+</div>
 <ul class="rig single">
 <li> 
-<a runat="server"  href="~/Gallery"><img src="Resources/crop1.jpg"> </a>
+<a runat="server"  href="~/galHardscapes"><img src="Resources/med/mainfour/elma.jpg"> </a>
 <div class="mainGal-textbox">
-    Hardscaping
+    Hardscapes
 </div>
 </li>
 <li>
-<a runat="server"  href="~/Gallery"><img src="Resources/orig3.JPG"/>  </a> 
+<a runat="server"  href="~/galWatergardens"><img src="Resources/med/mainfour/waterg.jpg"/>  </a> 
 <div class="mainGal-textbox">
     Water Gardens
 </div>
 </li>
 <li>
-<a runat="server"  href="~/Gallery"><img src="Resources/crop2.jpg"/>  </a> 
+<a runat="server"  href="~/galDesign"><img src="Resources/med/mainfour/servdesigntop.jpg"/>  </a> 
 <div class="mainGal-textbox">
-    Flowertime
+    Landscape Design
 </div>
 </li>
 <li>
-<a runat="server"  href="~/Gallery"><img src="Resources/crop3.jpg"/>  </a> 
+<a runat="server"  href="~/galMisc"><img src="Resources/med/mainfour/lindaMain2.jpg"/>  </a> 
 <div class="mainGal-textbox">
-    Chet-time
+    Miscellaneous
 </div>
 </li>
 </ul>
@@ -49,6 +52,9 @@
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
     Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
+    Designed by
+    <a href="mailto:chrishumedesign@gmail.com"> 
+     Chris Hume </a>
 </div>
 
 </asp:Content>

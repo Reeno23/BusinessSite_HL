@@ -1,14 +1,14 @@
-﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HLSite._Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HLSite._Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
 <!-- Top animated image -->
 <div  class="cf-container">
 <div id="cf">
-    <img class="fade" src="Resources/orig3.JPG" />           
-    <img class="fade" src="Resources/janLeft.jpg" />          
-    <img class="fade" src="Resources/lindaDrive.jpg" />
-    <img class="fade" src="Resources/lindaWalk.jpg" />
+    <img class="fade" src="Resources/headers/linda4.jpg" />           
+    <img class="fade" src="Resources/headers/gallerytop.jpg" />          
+    <img class="fade" src="Resources/headers/stacymain.jpg" />
+    <img class="fade" src="Resources/headers/lindaMain2.jpg" />
 </div>
 </div>
 
@@ -20,7 +20,7 @@
      <!-- Row section one -->
 <div class="col-md-4">
     <h3>About Us</h3>
-    <img src="Resources/med/truckSmall.jpg" />
+    <img src="Resources/med/truck4.jpg" />
     <p>
     Hume's Landscape Service is a family owned and operated business, 
     serving Tioga County, PA for over 30 years.  We're proud to put our name on every job we do.
@@ -29,7 +29,7 @@
     <!-- Row section two -->
 <div class="col-md-4">
     <h3>Services we offer</h3>
-    <img src="Resources/med/stacySide.jpg" />
+    <img src="Resources/med/restaurant.jpg" />
     <p>
     From custom landscape design to water gardens and hardscapes, we offer a full line of services to enhance the beauty of your outdoor spaces.
     </p>
@@ -37,7 +37,7 @@
     <!-- Row section three -->
 <div class="col-md-4">
     <h3> Estimates & Designs</h3>
-    <img src="Resources/med/blueprint.jpg" />
+    <img src="Resources/med/blueprintnew.jpg" />
     <p>
    No two jobs are the same. Email us today to schedule an appointment to review your desired landscape projects.
     </p>
@@ -56,6 +56,9 @@
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
     Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
+    Designed by
+    <a href="mailto:chrishumedesign@gmail.com"> 
+     Chris Hume </a>
 </div>
 
 </asp:Content>

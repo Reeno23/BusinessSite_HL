@@ -1,7 +1,7 @@
 ﻿<!--
 Author:  Chris Hume
 Company: Hume's Landscape Service 
-Thanks to: "CG" for the layout inspiration and overall HTML + css style influence for a complete beginner. Nicest coding style & technique out of any 50+ websites and designers examined.
+Thanks to: "CG" for the layout inspiration and overall HTML + css style influence for a beginner. Nicest coding style & technique out of any 50+ websites and designers examined.
 -->
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HLSite.SiteMaster" %>
 
@@ -15,11 +15,12 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
     <meta name="keywords" content="Pennsylvania, Wellsboro, Hume, landscaping, landscape, patio, ponds, waterfalls" />
     <meta name="author" content="Chris Hume" />
     
-    <link rel="shortcut icon" href="~/Resources/tiny/favicon.ico"  type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Resources/tiny/treefavicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
     <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
     
 </head>
 

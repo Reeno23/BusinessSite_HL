@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
-    <img src="Resources/crop3.jpg" />
+    <img src="Resources/headers/watergtop.jpg" />
 </div>
 
 <div class="bodyWrapper">
@@ -25,17 +25,11 @@
 <div class="servBullets">
 <ul>
     <li>Creative landscape design and installation</li>
-
     <li>Paver walkways, patios, and driveways</li>
-
     <li>Natural and architectural retaining walls</li>
-
     <li>Garden ponds, fountains, and waterfalls </li>
-
     <li>Low voltage landscape lighting</li>
-
     <li>Property maintenance </li>
-
     <li>Edging and mulching</li>
 </ul>
 </div>
@@ -58,6 +52,9 @@
     <a href="https://www.facebook.com/pages/Humes-Landscape-Service/187534687944624">
     Facebook </a> | <a href="mailto:humeslandscape@gmail.com"> 
     humeslandscape@gmail.com</a> <br />
+    Designed by
+    <a href="mailto:chrishumedesign@gmail.com"> 
+     Chris Hume </a>
 </div>
 
 </asp:Content>
