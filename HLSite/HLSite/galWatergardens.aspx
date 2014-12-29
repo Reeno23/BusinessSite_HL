@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galWatergardens.aspx.cs" Inherits="HLSite.galWatergardens" %>
+﻿<%@ Page Title=" - Water Gardens Gallery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galWatergardens.aspx.cs" Inherits="HLSite.galWatergardens" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

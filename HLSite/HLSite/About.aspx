@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="HLSite.About" %>
+﻿<%@ Page Title=" - About Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="HLSite.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -9,9 +9,25 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
-    We're very spiffy
+<div class="aboutBigText">
+    Our Company:
+</div>
 
+<div class="aboutMainText">
+    Hume's Landscaping has been providing Wellsboro and surrounding areas with quality landscaping services for over 30 years.
+    We are a family design/build landscape team specializing in custom residential landscape design and installation. We have 
+    purposely remained a small business to insure a personalized customer service relationship and devote ourselves to the fine details 
+    of every project and are dedicated in exceeding customer expectations on every task. With 3 family generations working together, 
+    we're proud to put our name on every job we do. 
+</div>
 
+<div class="aboutBigText">
+    History:
+</div>
+
+<div class="aboutMainText">
+
+</div>
 
 
 

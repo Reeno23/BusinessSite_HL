@@ -174,6 +174,7 @@
     <Content Include="Gallery.aspx" />
     <Content Include="galMisc.aspx" />
     <Content Include="galWatergardens.aspx" />
+    <Content Include="google255aadee2ec36c66.html" />
     <Content Include="helpers\fancybox_buttons.png" />
     <Content Include="helpers\jquery.fancybox-buttons.css" />
     <Content Include="helpers\jquery.fancybox-buttons.js" />

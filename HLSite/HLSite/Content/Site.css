@@ -80,7 +80,8 @@ h3 { color:#9A8C7D; font-family: 'Playfair Display SC', serif; font-size:24px;}
 .servGardenLink a{color:#75C8CD; font-size:18px;}
 
 /* About us stuff */
-
+.aboutBigText{position:relative; padding-top:15px; color:#9A8C7D; font-size:26px; margin-left:35px;font-family: 'Playfair Display SC', serif;}
+.aboutMainText{position:relative; padding-top:15px; display:block; width:80%; font-size:18px; color:#A0A0A0; margin-left:35px;}
 
 /* Gallery stuff */
 .galMainText{font-size:22px; padding-top:15px; font-family:'Playfair Display SC', serif; color:#A0A0A0; padding-left:50px;}

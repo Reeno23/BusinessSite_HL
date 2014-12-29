@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galDesign.aspx.cs" Inherits="HLSite.galDesign" %>
+﻿<%@ Page Title=" - Design Gallery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galDesign.aspx.cs" Inherits="HLSite.galDesign" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">

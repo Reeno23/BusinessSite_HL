@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="servHardscapes.aspx.cs" Inherits="HLSite.servHardscapes" %>
+﻿<%@ Page Title=" - Hardscaping" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="servHardscapes.aspx.cs" Inherits="HLSite.servHardscapes" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

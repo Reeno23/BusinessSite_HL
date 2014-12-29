@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galMisc.aspx.cs" Inherits="HLSite.galMisc" %>
+﻿<%@ Page Title=" - Miscellaneous Gallery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="galMisc.aspx.cs" Inherits="HLSite.galMisc" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

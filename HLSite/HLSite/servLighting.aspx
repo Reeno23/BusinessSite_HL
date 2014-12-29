@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="servLighting.aspx.cs" Inherits="HLSite.servLighting" %>
+﻿<%@ Page Title=" - Outdoor Lighting" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="servLighting.aspx.cs" Inherits="HLSite.servLighting" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div class="topimg-container">
