@@ -9,16 +9,19 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
-    <div class="servGardenText">
-        <p>Water gardens are a beautiful addition to any landscape. They can be created in any size or shape and 
-           provide a natural habitat for plants, fish, & frogs.
-        </p>
-
-    </div>
-
-
-
-
+<div class="servGardenText">
+    Water gardens are a beautiful addition to any landscape. They can be created in any size or shape and provide a natural habitat for 
+    plants, fish, and frogs. Moving water draws the attention of birds more so than a even a bird feeder. <br /> <br />
+    Let our custom designed ponds, 
+    streams, waterfalls, or pondless waterfalls become the focal point where you spend countless hours relaxing and enjoying quality time. 
+    With the combination of quality components and natural products, we ensure a reliable and aesthetically pleasing water feature for you 
+    to enjoy for years to come.
+    
+</div>
+    
+<div class="servGardenLink">
+    <a href="Contact">Contact us today and we'll help you create the ideal water garden for your landscape!</a>
+</div>
 
 </div>
 </div>

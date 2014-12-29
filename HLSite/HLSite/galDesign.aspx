@@ -14,40 +14,40 @@
 </div>
 <ul class="rig columns-4">
 <li>
-<a class="fancybox" rel="group" href="Resources/crop1.jpg"><img src="Resources/crop1.jpg"/>  </a>   
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld1.jpg"><img src="Resources/tiny/ld/ld1.jpg"/>  </a>   
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/orig3.JPG"><img src="Resources/orig3.JPG"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld2.jpg"><img src="Resources/tiny/ld/ld2.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop2.jpg"><img src="Resources/crop2.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld3.jpg"><img src="Resources/tiny/ld/ld3.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop3.jpg"><img src="Resources/crop3.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld4.jpg"><img src="Resources/tiny/ld/ld4.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop1.jpg"><img src="Resources/crop1.jpg"/>  </a>   
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld5.jpg"><img src="Resources/tiny/ld/ld5.jpg"/>  </a>    
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/orig3.JPG"><img src="Resources/orig3.JPG"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld6.jpg"><img src="Resources/tiny/ld/ld6.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop2.jpg"><img src="Resources/crop2.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld7.jpg"><img src="Resources/tiny/ld/ld7.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop3.jpg"><img src="Resources/crop3.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld8.jpg"><img src="Resources/tiny/ld/ld8.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop1.jpg"><img src="Resources/crop1.jpg"/>  </a>   
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld9.jpg"><img src="Resources/tiny/ld/ld9.jpg"/>  </a>   
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/orig3.JPG"><img src="Resources/orig3.JPG"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld10.jpg"><img src="Resources/tiny/ld/ld10.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop2.jpg"><img src="Resources/crop2.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld11.jpg"><img src="Resources/tiny/ld/ld11.jpg"/>  </a>  
 </li>
 <li>
-<a class="fancybox" rel="group" href="Resources/crop3.jpg"><img src="Resources/crop3.jpg"/>  </a> 
+<a class="fancybox" rel="group" href="Resources/gallery/ld/ld12.jpg"><img src="Resources/tiny/ld/ld12.jpg"/>  </a>  
 </li>
 </ul>
 
@@ -56,25 +56,25 @@
     <h3>All Galleries</h3>
 <ul class="rig columns-2" >
 <li> 
-<a runat="server"  href="~/galHardscapes"><img src="Resources/crop1.jpg"></a>
+<a runat="server"  href="~/galHardscapes"><img src="Resources/tiny/mainfour/elma.jpg"></a>
 <div class="galRight-textbox">
     Hardscapes
 </div>
 </li>
 <li>
-<a runat="server"  href="~/galWatergardens"><img src="Resources/orig3.JPG"/>  </a> 
+<a runat="server"  href="~/galWatergardens"><img src="Resources/tiny/mainfour/waterg.jpg"/>  </a> 
 <div class="galRight-textbox">
     Water Gardens
 </div>
 </li>
 <li>
-<a runat="server"  href="~/galDesign"><img src="Resources/crop2.jpg"/>  </a> 
+<a runat="server"  href="~/galDesign"><img src="Resources/tiny/mainfour/servdesigntop.jpg"/>  </a> 
 <div class="galRight-textbox">
     Landscape Design
 </div>
 </li>
 <li>
-<a runat="server"  href="~/galMisc"><img src="Resources/crop3.jpg"/>  </a> 
+<a runat="server"  href="~/galMisc"><img src="Resources/tiny/mainfour/lindamain2.jpg"/>  </a> 
 <div class="galRight-textbox">
     Miscellaneous
 </div>

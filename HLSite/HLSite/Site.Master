@@ -48,10 +48,10 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <!-- Services dropdown -->
 <li><a runat="server" href="~/Services">Services</a>
 <ul>
-    <li><a runat="server"  href="~/servHardscapes">Hardscapes</a></li>
+    <li><a runat="server"  href="~/servHardscapes">Hardscaping</a></li>
     <li><a runat="server"  href="~/servWatergardens">Water Gardens</a></li>
-    <li><a runat="server"  href="~/servLighting">Outdoor Lighting</a></li>
     <li><a runat="server"  href="~/servDesign">Landscape Design</a></li>
+    <li><a runat="server"  href="~/servLighting">Outdoor Lighting</a></li>
 </ul>
 </li>
 

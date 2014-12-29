@@ -9,7 +9,29 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
+<div class="servHardscapingText">
+    Complement your home and landscape with the architecturally stunning features 
+    and beauty of hardscape products. The selection of styles, colors and patterns are nearly
+    limitless.<br /> <br />
+    From walkways, patios, and steps to driveways, retaining walls, and outdoor fire pits,
+    we can install any custom hardscapes combination that add dimension and functionality 
+    as well as increase the value of your property and curb appeal.
+</div>
 
+<div class="servHardscapingBigText">
+    Hardscaping options include but are not limited to:
+</div>
+
+<div class="servHardscapingBullets">
+<ul>
+    <li>Brick paver patios, walkways, & driveways</li>
+    <li>Retaining Walls</li>
+    <li>Natural Stone walls</li>
+    <li>Steps</li>
+    <li>Stepping stone paths</li>
+    <li>Fire pits </li>
+</ul>
+</div>
 
 
 </div>

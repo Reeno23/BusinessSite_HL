@@ -1,10 +1,6 @@
 ﻿/* Author: Chris Hume */
 /* Google fonts to try: open sans, josefin slab, arvo, lato, vollkorn, abril fatface, ubuntu, ptsans+pt serif, old standard tt, droid sans,    */
 
-
-@font-face{font-family: fontH; src:url()}
-
-
 /* Miscellaneous */
 @viewport{ width:1024px; }
 body{ font-size:14px;background-color:#0B101D;font-family: 'PT Serif', serif;}
@@ -33,10 +29,11 @@ h3 { color:#9A8C7D; font-family: 'Playfair Display SC', serif; font-size:24px;}
 .topline-two { background-color:#0C0802; height:8px; width:100%;}
 
 /* Top animated image details*/
-.cf-container { position:relative;background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
+.cf-container { position:relative;background-repeat:no-repeat; width:100%; height:375px;}
 
 /* Regular top image details */
-.topimg-container { position:relative; background-repeat:no-repeat; width:100%; overflow:hidden; height:375px;}
+.topimg-container { position:relative; background-repeat:no-repeat; width:100%; height:375px;}
+.topimg-container img { position:absolute;width:100%;height:100%;}
 
 /* Body stuff */
 .bodyWrapper { background-color:#0C0802;width:100%; }
@@ -48,20 +45,45 @@ h3 { color:#9A8C7D; font-family: 'Playfair Display SC', serif; font-size:24px;}
 .footer-content { background-color:#0B101D;color:#308497;text-align:center;font-size:11px;}
 .footer-content a {color:#75C8CD;}
 
-/* Services stuff */
+/* Services main stuff */
 .servMainText{position:relative; padding-top:15px; display:block; width:80%; font-size:18px; margin:0 auto; color:#A0A0A0;}
 .servBigText{position:relative; padding-top:15px; color:#9A8C7D; font-size:26px; margin-left:35px;font-family: 'Playfair Display SC', serif;}
 .servBullets{position: relative;font-size: 18px; padding-top:15px;color:#008080; margin-left:15px;}
 .servBullets li {background: none;display:list-item;}
-.servBullets ul{list-style-type:circle; height:210px;}
-.servPic img{float:right; width:170px; height:250px; margin-right:200px; margin-top:-250px;}
-.servGardenText{display: block; width:70%; font-size:18px; padding-top:15px; color:#A0A0A0}
+.servBullets ul{list-style-type:circle; height:230px;}
+.servPic img{float:right; width:170px; height:250px; margin-right:200px; margin-top:-275px;}
+.servBtmText{position:relative; padding-left:35px; display:block; width:27%; font-size:16px; color:#008080; height:100px;}
+.servLinks1{display:block; position:absolute; width:170px;font-size:16px; margin-left:270px; margin-top:-95px;}
+.servLinks2{display:block; position:absolute; width:170px;font-size:16px; margin-left:440px; margin-top:-95px;}
+.servLinks1 li{padding:0px!important; background:none;}
+.servLinks2 li{padding:0px!important; background:none;}
+.servLinks1 a, .servLinks2 a { color:#75C8CD; }
+.servLinks1 a:hover, .servLinks2 a:hover {color:#75C8CD!important}
+
+/* Services alternate pages stuff */
+.servHardscapingText{position:relative;display:block; width:80%; font-size:18px; padding-top:15px; color:#A0A0A0; margin:0 auto;}
+.servHardscapingBigText{position:relative; padding-top:15px; color:#9A8C7D; font-size:26px; margin-left:35px;font-family: 'Playfair Display SC', serif;}
+.servHardscapingBullets{position: relative;font-size:18px; padding-top:15px;color:#008080; margin-left:15px;}
+.servHardscapingBullets li{background: none;display:list-item;}
+.servHardscapingBullets ul{list-style-type:circle; height:200px;}
+
+.servDesignText{position:relative;display:block; width:80%; font-size:18px; padding-top:15px; color:#A0A0A0; margin:0 auto;}
+.servDesignLink{ padding-top:30px;display:block;text-align:center;} 
+.servDesignLink a{color:#75C8CD; font-size:18px;}
+
+.servLightingText{position:relative;display:block; width:80%; font-size:18px; padding-top:15px; color:#A0A0A0; margin:0 auto;}
+.servLightingLink{ padding-top:30px;display:block;text-align:center;} 
+.servLightingLink a{color:#75C8CD; font-size:18px;}
+
+.servGardenText{position:relative;display:block; width:80%; font-size:18px; padding-top:15px; color:#A0A0A0; margin:0 auto;}
+.servGardenLink{ padding-top:30px;display:block;text-align:center;} 
+.servGardenLink a{color:#75C8CD; font-size:18px;}
 
 /* About us stuff */
 
 
 /* Gallery stuff */
-.galMainText{font-size:22px; padding-top:15px; font-family:'Playfair Display SC', serif; color:#A0A0A0; padding-left:80px;}
+.galMainText{font-size:22px; padding-top:15px; font-family:'Playfair Display SC', serif; color:#A0A0A0; padding-left:50px;}
 .galRight {float:right; margin-top:-430px; margin-left:-500px; text-align:center;}
 .galRight h3 {margin-left:-120px; padding-bottom:15px;font-family:'Playfair Display SC', serif}
 .galRight-textbox {height:15%; width:100%;color:#9A8C7D;  font-size:16px; margin-top:-10px; position:relative }
@@ -114,7 +136,6 @@ ul.rig li p {
 }
 /* Class for single row of images */
 ul.rig.single{
-    margin: 0 auto;
     position:relative;
     width:960px;
     height:200px;
@@ -132,8 +153,6 @@ ul.rig.single li{
     
 }
 ul.rig.single li img {
-    
-    
     width:100%;
     height:85%;
 }
@@ -161,7 +180,7 @@ ul.rig.columns-3 li {
 ul.rig.columns-4{
     margin-left:-50px;
     position:relative;
-    width:650px; 
+    width:640px; 
     height:350px;
 }
 ul.rig.columns-4 h3{margin-top:0px!important; padding-top:0px;}
@@ -174,12 +193,13 @@ ul.rig.columns-4 li {
 ul.rig.columns-5 li {
 	width: 18.5%; /* this value + 2.5 should = 20% */
 }
-/* class for 6 columns 3 rows */
+ul.rig.columns-6{ margin-left:-50px;position:relative;width:640px; height:350px;}
+/* class for 6 columns 4 rows */
 ul.rig.columns-6 li {
 	width: 14.1%; /* this value + 2.5 should = 16.6% */
-    height: 30.83%;
+    height: 22.5%;
 }
-ul.rig.columns-7{ margin-left:-50px;position:relative;width:650px; height:350px;}
+ul.rig.columns-7{ margin-left:-50px;position:relative;width:640px; height:350px;}
 ul.rig.columns-7 li {
 	width: 11.73%; /* this value + 2.5 should = 14.3% */
     height:30.83%;
@@ -207,7 +227,6 @@ ul.rig.columns-7 li {
 #cf {}
 #cf img {
    position: absolute;
-   overflow:hidden;
    width:100%;
    height:100%;
   -webkit-transition: opacity 1s ease-in-out;

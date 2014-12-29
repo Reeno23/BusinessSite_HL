@@ -12,7 +12,7 @@
 <div class="servMainText" >
     Are you considering landscape design? Hardscape design and installation? 
     Maybe garden ponds, waterfalls, or various maintenance services? Whichever it is, we can help in
-    making your desired outdoor vision a reality. 
+    making your desired outdoor vision a reality. <br /><br />
     We're dedicated to designing and building quality custom landscapes that fit your unique 
     taste and budget. Hume's Landscape Service has been family owned and operated since 1978, and we're 
     proud to put our name on every job we do.
@@ -38,7 +38,23 @@
     <img src="Resources/med/elmaflower.jpg" />
 </div>
 
+<div class="servBtmText">
+    For related information, please visit our specific service pages:
+</div>
 
+<div class="servLinks1">
+<ul>
+    <li><a href="servHardscapes">Hardscaping  </a> </li>
+    <li><a href="servDesign">Landscape Design </a></li>
+</ul>
+</div>
+<div class="servLinks2">
+<ul>
+    <li><a href="servWatergardens">Water Gardens </a></li> 
+    
+    <li><a href="servLighting">Outdoor Lighting </a></li>
+</ul>
+</div>
 </div>
 </div>
 

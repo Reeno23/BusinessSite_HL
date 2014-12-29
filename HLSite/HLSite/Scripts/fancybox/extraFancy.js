@@ -4,6 +4,7 @@ $(document).ready(function () {
         margin: [90, 200, 90, 200],
         padding: 5,
         lazyload: true,
+        arrows: true,
 
         beforeShow: function () {
             /* Disable right click */

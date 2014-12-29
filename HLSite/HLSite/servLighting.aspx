@@ -8,11 +8,19 @@
 <div class="bodyWrapper">
 <div class="body-content">
 
+<div class="servLightingText">
+    From the front of your home to the backyard deck and garden, outdoor lighting systems come 
+    in a wide variety of sizes and styles to compliment your home’s style and landscaping design. <br />
+    Low-voltage landscape lighting is inexpensive to operate, yet creates great drama while enhancing
+    safety and security. It illuminates pathways, driveways and steps while accentuating your 
+    home's architecture. It shows off your home's richness and beauty at night by highlighting ornamental 
+    trees, ponds, statues, and other focal points. 
+    
+</div>
 
-
-
-
-
+<div class="servLightingLink">
+    <a href="/Contact">Contact us today to learn more about Landscape Lighting for your home!</a>
+</div>
 
 </div>
 </div>
