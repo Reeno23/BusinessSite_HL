@@ -10,10 +10,10 @@ Thanks to: "CG" for the layout inspiration and overall HTML + css style influenc
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title>Hume's Landscape Service <%: Page.Title %></title>
+    <title>Hume's Landscape Service | Wellsboro Landscaping<%: Page.Title %></title>
     <meta name="viewport" />
     <meta name="author" content="Chris Hume" />
-    <meta name="description" content="Family-driven landscaping business serving Wellsboro, Pennsylvania and surrounding areas for over 46 years." />
+    <meta name="description" content="Hume's Landscape Service of Wellsboro, PA has been serving Tioga County and surrounding areas for over 36 years. Design, installation, and maintenance." />                          
     <link rel="shortcut icon" href="~/Resources/tiny/treefavicon.ico"  type="image/x-icon" />
     <link rel="stylesheet" href="/Content/ulMess.css" />
     <link rel="stylesheet" type="text/css" href="Scripts/fancybox/jquery.fancybox.css" />

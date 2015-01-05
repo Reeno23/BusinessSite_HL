@@ -14,7 +14,7 @@
 </div>
 
 <div class="aboutMainText">
-    Hume's Landscaping has been providing Wellsboro and surrounding areas with quality landscaping services for over 30 years.
+    Hume's Landscaping has been providing Wellsboro and surrounding areas with quality landscaping services for over 36 years.
     We are a family design/build landscape team specializing in custom residential landscape design and installation. We have 
     purposely remained a small business to insure a personalized customer service relationship and devote ourselves to the fine details 
     of every project and are dedicated in exceeding customer expectations on every task. With 3 family generations working together, 

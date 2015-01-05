@@ -23,7 +23,7 @@
     <img src="Resources/med/truck4.jpg" />
     <p>
     Hume's Landscape Service is a family owned and operated business, 
-    serving Tioga County, PA for over 30 years.  We're proud to put our name on every job we do.
+    serving Tioga County, PA for over 36 years.  We're proud to put our name on every job we do.
     </p>
 </div>
     <!-- Row section two -->
