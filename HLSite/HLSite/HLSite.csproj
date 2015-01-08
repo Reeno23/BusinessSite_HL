@@ -163,39 +163,188 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\ulMess.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="galDesign.aspx" />
     <Content Include="galHardscapes.aspx" />
     <Content Include="Gallery.aspx" />
+    <Content Include="galMisc.aspx" />
     <Content Include="galWatergardens.aspx" />
+    <Content Include="google255aadee2ec36c66.html" />
+    <Content Include="helpers\fancybox_buttons.png" />
+    <Content Include="helpers\jquery.fancybox-buttons.css" />
+    <Content Include="helpers\jquery.fancybox-buttons.js" />
+    <Content Include="helpers\jquery.fancybox-media.js" />
+    <Content Include="helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="helpers\jquery.fancybox-thumbs.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Resources\1400_475.jpg" />
-    <Content Include="Resources\2.JPG" />
-    <Content Include="Resources\22.JPG" />
-    <Content Include="Resources\21.JPG" />
-    <Content Include="Resources\940_390.jpg" />
-    <Content Include="Resources\blueprint.jpg" />
-    <Content Include="Resources\crop1.jpg" />
-    <Content Include="Resources\crop2.jpg" />
-    <Content Include="Resources\crop3.jpg" />
-    <Content Include="Resources\facebook.png" />
-    <Content Include="Resources\images4.png" />
-    <Content Include="Resources\logoFilled.png" />
-    <Content Include="Resources\orig3.JPG" />
-    <Content Include="Resources\topbg.jpg" />
-    <Content Include="Resources\words2.png" />
+    <Content Include="Resources\gallery\hs\hs1.jpg" />
+    <Content Include="Resources\gallery\hs\hs10.jpg" />
+    <Content Include="Resources\gallery\hs\hs11.jpg" />
+    <Content Include="Resources\gallery\hs\hs12.jpg" />
+    <Content Include="Resources\gallery\hs\hs2.JPG" />
+    <Content Include="Resources\gallery\hs\hs3.jpg" />
+    <Content Include="Resources\gallery\hs\hs4.JPG" />
+    <Content Include="Resources\gallery\hs\hs5.jpg" />
+    <Content Include="Resources\gallery\hs\hs6.JPG" />
+    <Content Include="Resources\gallery\hs\hs7.JPG" />
+    <Content Include="Resources\gallery\hs\hs8.jpg" />
+    <Content Include="Resources\gallery\hs\hs9.JPG" />
+    <Content Include="Resources\gallery\ld\ld1.JPG" />
+    <Content Include="Resources\gallery\ld\ld10.JPG" />
+    <Content Include="Resources\gallery\ld\ld11.JPG" />
+    <Content Include="Resources\gallery\ld\ld12.jpg" />
+    <Content Include="Resources\gallery\ld\ld2.JPG" />
+    <Content Include="Resources\gallery\ld\ld3.JPG" />
+    <Content Include="Resources\gallery\ld\ld4.JPG" />
+    <Content Include="Resources\gallery\ld\ld5.jpg" />
+    <Content Include="Resources\gallery\ld\ld6.JPG" />
+    <Content Include="Resources\gallery\ld\ld7.JPG" />
+    <Content Include="Resources\gallery\ld\ld8.JPG" />
+    <Content Include="Resources\gallery\ld\ld9.JPG" />
+    <Content Include="Resources\gallery\misc\misc1.JPG" />
+    <Content Include="Resources\gallery\misc\misc10.jpg" />
+    <Content Include="Resources\gallery\misc\misc11.JPG" />
+    <Content Include="Resources\gallery\misc\misc12.jpg" />
+    <Content Include="Resources\gallery\misc\misc13.jpg" />
+    <Content Include="Resources\gallery\misc\misc14.jpg" />
+    <Content Include="Resources\gallery\misc\misc15.jpg" />
+    <Content Include="Resources\gallery\misc\misc16.JPG" />
+    <Content Include="Resources\gallery\misc\misc17.jpg" />
+    <Content Include="Resources\gallery\misc\misc18.JPG" />
+    <Content Include="Resources\gallery\misc\misc19.jpg" />
+    <Content Include="Resources\gallery\misc\misc2.JPG" />
+    <Content Include="Resources\gallery\misc\misc20.JPG" />
+    <Content Include="Resources\gallery\misc\misc21.JPG" />
+    <Content Include="Resources\gallery\misc\misc22.JPG" />
+    <Content Include="Resources\gallery\misc\misc23.jpg" />
+    <Content Include="Resources\gallery\misc\misc24.JPG" />
+    <Content Include="Resources\gallery\misc\misc3.JPG" />
+    <Content Include="Resources\gallery\misc\misc4.JPG" />
+    <Content Include="Resources\gallery\misc\misc5.JPG" />
+    <Content Include="Resources\gallery\misc\misc6.JPG" />
+    <Content Include="Resources\gallery\misc\misc7.JPG" />
+    <Content Include="Resources\gallery\misc\misc8.JPG" />
+    <Content Include="Resources\gallery\misc\misc9.JPG" />
+    <Content Include="Resources\gallery\wg\wg1.jpg" />
+    <Content Include="Resources\gallery\wg\wg10.jpg" />
+    <Content Include="Resources\gallery\wg\wg11.jpg" />
+    <Content Include="Resources\gallery\wg\wg12.jpg" />
+    <Content Include="Resources\gallery\wg\wg2.JPG" />
+    <Content Include="Resources\gallery\wg\wg3.jpg" />
+    <Content Include="Resources\gallery\wg\wg4.jpg" />
+    <Content Include="Resources\gallery\wg\wg5.jpg" />
+    <Content Include="Resources\gallery\wg\wg6.JPG" />
+    <Content Include="Resources\gallery\wg\wg7.JPG" />
+    <Content Include="Resources\gallery\wg\wg8.JPG" />
+    <Content Include="Resources\gallery\wg\wg9.jpg" />
+    <Content Include="Resources\headers\abouttop.jpg" />
+    <Content Include="Resources\headers\badlightingtop.jpg" />
+    <Content Include="Resources\headers\contacttop.jpg" />
+    <Content Include="Resources\headers\elma.jpg" />
+    <Content Include="Resources\headers\gallerytop.jpg" />
+    <Content Include="Resources\headers\hardscapetop.jpg" />
+    <Content Include="Resources\headers\linda4.jpg" />
+    <Content Include="Resources\headers\lindaMain2.jpg" />
+    <Content Include="Resources\headers\lMain3.jpg" />
+    <Content Include="Resources\headers\servdesigntop.jpg" />
+    <Content Include="Resources\headers\stacymain.jpg" />
+    <Content Include="Resources\headers\stacymain2.jpg" />
+    <Content Include="Resources\med\blueprintnew.jpg" />
+    <Content Include="Resources\med\elmaflower.jpg" />
+    <Content Include="Resources\med\mainfour\elma.jpg" />
+    <Content Include="Resources\med\mainfour\lindaMain2.jpg" />
+    <Content Include="Resources\med\mainfour\servdesigntop.jpg" />
+    <Content Include="Resources\med\mainfour\waterg.jpg" />
+    <Content Include="Resources\med\restaurant.jpg" />
+    <Content Include="Resources\med\truck4.jpg" />
+    <Content Include="Resources\tiny\facebook.png" />
+    <Content Include="Resources\med\words2.png" />
+    <Content Include="Resources\tiny\ftrlogo.png" />
+    <Content Include="Resources\tiny\hs\hs1.jpg" />
+    <Content Include="Resources\tiny\hs\hs10.jpg" />
+    <Content Include="Resources\tiny\hs\hs11.jpg" />
+    <Content Include="Resources\tiny\hs\hs12.jpg" />
+    <Content Include="Resources\tiny\hs\hs2.JPG" />
+    <Content Include="Resources\tiny\hs\hs3.jpg" />
+    <Content Include="Resources\tiny\hs\hs4.JPG" />
+    <Content Include="Resources\tiny\hs\hs5.jpg" />
+    <Content Include="Resources\tiny\hs\hs6.JPG" />
+    <Content Include="Resources\tiny\hs\hs7.JPG" />
+    <Content Include="Resources\tiny\hs\hs8.jpg" />
+    <Content Include="Resources\tiny\hs\hs9.JPG" />
+    <Content Include="Resources\tiny\ld\ld1.JPG" />
+    <Content Include="Resources\tiny\ld\ld10.JPG" />
+    <Content Include="Resources\tiny\ld\ld11.JPG" />
+    <Content Include="Resources\tiny\ld\ld12.jpg" />
+    <Content Include="Resources\tiny\ld\ld2.JPG" />
+    <Content Include="Resources\tiny\ld\ld3.JPG" />
+    <Content Include="Resources\tiny\ld\ld4.JPG" />
+    <Content Include="Resources\tiny\ld\ld5.jpg" />
+    <Content Include="Resources\tiny\ld\ld6.JPG" />
+    <Content Include="Resources\tiny\ld\ld7.JPG" />
+    <Content Include="Resources\tiny\ld\ld8.JPG" />
+    <Content Include="Resources\tiny\ld\ld9.JPG" />
+    <Content Include="Resources\tiny\mainfour\elma.jpg" />
+    <Content Include="Resources\tiny\mainfour\lindaMain2.jpg" />
+    <Content Include="Resources\tiny\mainfour\servdesigntop.jpg" />
+    <Content Include="Resources\tiny\mainfour\waterg.jpg" />
+    <Content Include="Resources\tiny\misc\misc1.JPG" />
+    <Content Include="Resources\tiny\misc\misc10.jpg" />
+    <Content Include="Resources\tiny\misc\misc11.JPG" />
+    <Content Include="Resources\tiny\misc\misc12.jpg" />
+    <Content Include="Resources\tiny\misc\misc13.jpg" />
+    <Content Include="Resources\tiny\misc\misc14.jpg" />
+    <Content Include="Resources\tiny\misc\misc15.jpg" />
+    <Content Include="Resources\tiny\misc\misc16.JPG" />
+    <Content Include="Resources\tiny\misc\misc17.jpg" />
+    <Content Include="Resources\tiny\misc\misc18.JPG" />
+    <Content Include="Resources\tiny\misc\misc19.jpg" />
+    <Content Include="Resources\tiny\misc\misc2.JPG" />
+    <Content Include="Resources\tiny\misc\misc20.JPG" />
+    <Content Include="Resources\tiny\misc\misc21.JPG" />
+    <Content Include="Resources\tiny\misc\misc22.JPG" />
+    <Content Include="Resources\tiny\misc\misc23.jpg" />
+    <Content Include="Resources\tiny\misc\misc24.JPG" />
+    <Content Include="Resources\tiny\misc\misc3.JPG" />
+    <Content Include="Resources\tiny\misc\misc4.JPG" />
+    <Content Include="Resources\tiny\misc\misc5.JPG" />
+    <Content Include="Resources\tiny\misc\misc6.JPG" />
+    <Content Include="Resources\tiny\misc\misc7.JPG" />
+    <Content Include="Resources\tiny\misc\misc8.JPG" />
+    <Content Include="Resources\tiny\misc\misc9.JPG" />
+    <Content Include="Resources\tiny\treefavicon.ico" />
+    <Content Include="Resources\headers\waterg.jpg" />
+    <Content Include="Resources\headers\watergtop.jpg" />
+    <Content Include="Resources\tiny\wg\wg1.jpg" />
+    <Content Include="Resources\tiny\wg\wg10.jpg" />
+    <Content Include="Resources\tiny\wg\wg11.jpg" />
+    <Content Include="Resources\tiny\wg\wg12.jpg" />
+    <Content Include="Resources\tiny\wg\wg2.JPG" />
+    <Content Include="Resources\tiny\wg\wg3.jpg" />
+    <Content Include="Resources\tiny\wg\wg4.jpg" />
+    <Content Include="Resources\tiny\wg\wg5.jpg" />
+    <Content Include="Resources\tiny\wg\wg6.JPG" />
+    <Content Include="Resources\tiny\wg\wg7.JPG" />
+    <Content Include="Resources\tiny\wg\wg8.JPG" />
+    <Content Include="Resources\tiny\wg\wg9.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\fancybox\blank.gif" />
+    <Content Include="Scripts\fancybox\extraFancy.js" />
+    <Content Include="Scripts\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="Scripts\fancybox\fancybox_loading.gif" />
+    <Content Include="Scripts\fancybox\fancybox_overlay.png" />
+    <Content Include="Scripts\fancybox\fancybox_sprite.png" />
     <Content Include="Scripts\fancybox\jquery.fancybox.css" />
     <Content Include="Scripts\fancybox\jquery.fancybox.pack.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -226,8 +375,12 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Default.aspx" />
-    <Content Include="Resources\favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="servDesign.aspx" />
+    <Content Include="servHardscapes.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="servLighting.aspx" />
+    <Content Include="servWatergardens.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -361,13 +514,6 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Blog.aspx.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Blog.aspx.designer.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -382,6 +528,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="galDesign.aspx.cs">
+      <DependentUpon>galDesign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galDesign.aspx.designer.cs">
+      <DependentUpon>galDesign.aspx</DependentUpon>
+    </Compile>
     <Compile Include="galHardscapes.aspx.cs">
       <DependentUpon>galHardscapes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -395,6 +548,13 @@
     </Compile>
     <Compile Include="Gallery.aspx.designer.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galMisc.aspx.cs">
+      <DependentUpon>galMisc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galMisc.aspx.designer.cs">
+      <DependentUpon>galMisc.aspx</DependentUpon>
     </Compile>
     <Compile Include="galWatergardens.aspx.cs">
       <DependentUpon>galWatergardens.aspx</DependentUpon>
@@ -412,6 +572,41 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="servDesign.aspx.cs">
+      <DependentUpon>servDesign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servDesign.aspx.designer.cs">
+      <DependentUpon>servDesign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servHardscapes.aspx.cs">
+      <DependentUpon>servHardscapes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servHardscapes.aspx.designer.cs">
+      <DependentUpon>servHardscapes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servLighting.aspx.cs">
+      <DependentUpon>servLighting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servLighting.aspx.designer.cs">
+      <DependentUpon>servLighting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servWatergardens.aspx.cs">
+      <DependentUpon>servWatergardens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servWatergardens.aspx.designer.cs">
+      <DependentUpon>servWatergardens.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -438,9 +633,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Resources\medium\" />
-    <Folder Include="Resources\NewFolder1\" />
-    <Folder Include="Resources\tiny\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

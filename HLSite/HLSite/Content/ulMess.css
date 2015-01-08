@@ -1,20 +1,20 @@
 ﻿/* Lists & their drop down lists' messes. Doesn't need to be cluttering main css */
 
+#nav-contents .navbar-nav li a{border-style:hidden !important; color:#EBEADE}
+li:hover a {background:#0B101D !important; cursor:pointer;}
+ul li:hover ul li a {background: #0B101D !important;}
+ul li:hover ul li {background: #0B101D !important;}
 
-#nav-contents .navbar-nav li a{border-style:hidden !important;}
-li:hover a {background:#112241 !important; cursor:pointer;}
-ul li:hover ul li a {background: #112241 !important;}
-ul li:hover ul li {background: #112241 !important;}
-
-li a:hover{color:lawngreen;}
+li a:hover{color:#0D8A09!important;}
 
 
 ul li {
     border-style:hidden;
-    background-color:#112241;
+    background-color:#0B101D;
     padding-left: 30px;
     display: inline-block;
     position:relative;
+   
 }
 
 ul li ul {
@@ -23,7 +23,7 @@ ul li ul {
     z-index:200;
     position:absolute;
     background:black;
-    width:130px;
+    width:165px;
     padding-bottom:5px;
     display: none;
     opacity: 0;
@@ -40,18 +40,18 @@ ul li ul a {
 }
 
 ul li ul li {
-    background:#112241;
+    background:#0B101D;
     display:block;
     color: #261906;
     padding-top:5px;
 }
 
 ul li ul li:hover {
-    background-color:#112241
+    background-color:#0B101D;
 }
 
 ul li:hover ul {
-    background:#112241;
+    background:#0B101D;
     display: block;
     opacity: 1;
     visibility: visible;

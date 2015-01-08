@@ -24,6 +24,7 @@
 	left: 0;
 	z-index: 8020;
     
+    
    
 
 }
@@ -142,6 +143,9 @@
 	cursor: pointer;
 	z-index: 8040;
 	visibility: hidden;
+}
+.fancybox-mobile .fancybox-nav span {
+    visibility: visible;
 }
 
 .fancybox-prev span {
